@@ -1,0 +1,825 @@
+Internal Medicine Data:
+
+Total Diagnoses: 53
+
+Examination Frequency:
+
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18
+Interview : 884
+Physical examination : 387
+Temperature measurement : 60
+Abdominal palpation : 63
+Microbial cultivation : 17
+Blood analysis - ICU : 50
+Chest auscultation : 73
+X-ray chest : 26
+MRI : 16
+CT : 30
+Oral cavity inspection : 22
+Neck palpation : 21
+Thorax percussion : 26
+Speech listening : 26
+Urine analysis - testing : 28
+Blood test : 57
+Heart monitoring : 21
+ECG : 21
+Ear examination : 23
+FAST : 15
+USG : 18

@@ -1,0 +1,174 @@
+Emergency Data:
+
+Total Diagnoses: 29
+
+Examination Frequency:
+
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7
+Interview : 198
+Physical examination : 112
+Temperature measurement : 11
+Chest auscultation : 16
+Oral cavity inspection : 14
+Nasal cavity inspection : 9
+Neck palpation : 7

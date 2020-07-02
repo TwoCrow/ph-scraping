@@ -1,0 +1,762 @@
+Cardiology Data:
+
+Total Diagnoses: 27
+
+Examination Frequency:
+
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18
+Interview : 1418
+Oral cavity inspection : 27
+Physical examination : 782
+Neck palpation : 25
+Nasal cavity inspection : 12
+Temperature measurement : 74
+Chest auscultation : 98
+Thorax percussion : 44
+CRP : 24
+Echo : 16
+Heart monitoring : 45
+ECG : 45
+Neurological testing : 7
+Urgent Echo : 11
+Abdominal palpation : 70
+Blood analysis - ICU : 66
+Blood test : 73
+Speech listening : 31
+Urine analysis - testing : 30
+Blood pressure measurement  : 18
+Biopsy - testing : 6
+Angiography : 12
+CT : 38
+MRI : 29
+Ophthalmoscopy : 6
+USG : 25
+FAST : 18

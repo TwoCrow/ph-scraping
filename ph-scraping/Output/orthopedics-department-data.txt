@@ -1,0 +1,380 @@
+Orthopedics Data:
+
+Total Diagnoses: 51
+
+Examination Frequency:
+
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24
+Interview : 1237
+Physical examination : 711
+CT : 36
+Temperature measurement : 67
+CRP : 15
+Blood analysis - ICU : 56
+Blood test : 63
+Abdominal palpation : 64
+MRI : 28
+Oral cavity inspection : 24
+Neck palpation : 23
+Chest auscultation : 75
+USG : 21
+X-ray upper limb : 12
+X-ray lower limb : 14
+X-ray chest : 27
+Ear examination : 24

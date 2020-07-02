@@ -1,0 +1,474 @@
+General Surgery Data:
+
+Total Diagnoses: 46
+
+Examination Frequency:
+
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17
+Interview : 508
+Physical examination : 245
+Blood analysis - ICU : 38
+Blood test : 39
+Abdominal palpation : 56
+Temperature measurement : 32
+Neck palpation : 13
+Oral cavity inspection : 16
+Speech listening : 16
+USG : 16
+FAST : 13
+Urine analysis - testing : 22
+Chest auscultation : 17

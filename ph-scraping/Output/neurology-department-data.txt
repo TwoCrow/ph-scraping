@@ -1,0 +1,1042 @@
+Neurology Data:
+
+Total Diagnoses: 29
+
+Examination Frequency:
+
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28
+Interview : 1616
+Physical examination : 903
+Temperature measurement : 81
+Speech listening : 49
+Chest auscultation : 101
+Heart monitoring : 51
+ECG : 51
+Thorax percussion : 45
+Audiometry : 14
+Blood pressure measurement  : 26
+Neurological testing : 21
+Abdominal palpation : 72
+Basic visual test : 13
+Ophthalmoscopy : 22
+MRI : 35
+Serologic testing : 9
+Biopsy - testing : 7
+Neck palpation : 28
+Evaluation : 8
+Blood analysis - ICU : 69
+Blood test : 76
+Microbial cultivation : 19
+Angiography : 14
+Ear examination : 26
+CT : 47
+Urgent Echo : 12
+Echo : 17
+Oral cavity inspection : 28

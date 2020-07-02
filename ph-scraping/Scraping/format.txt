@@ -1,0 +1,31 @@
+The general format for each disease should be as follows:
+
+[h2]Disease Name[/h2] // 
+[quote]Disease Description[/quote] // 
+
+Department: // 
+Occurrence: //
+Base Payment: //
+
+[h3]Symptoms[/h3]
+[table]
+[tr]
+[th]Symptom[/th]
+[th]Probability[/th]
+[th]Examination[/th]
+[th]Treatment[/th]
+[th]Collapse Symptom[/th]
+[th]Collapse Risk Hours[/th]
+[th]Death Risk Hours[/th]
+[/tr]
+// This segment will loop depending on how many symptoms this disease has
+[tr]
+[td][/td]
+[td][/td]
+[td][/td]
+[td][/td]
+[td][/td]
+[td][/td]
+[td][/td]
+[/tr]
+[/table]
