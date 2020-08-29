@@ -1,0 +1,45 @@
+Total Diagnoses: 69
+Potentially-Fatal Diagnoses: 39
+
+Deciding Exam Frequency:
+Blood test: 10
+Microbial cultivation: 9
+CT: 9
+PCR - testing: 8
+Serologic testing: 7
+X-ray chest: 5
+Evaluation: 5
+Ear examination: 4
+Interview: 3
+FAST: 3
+USG: 3
+MRI: 2
+Spirometry: 2
+Physical examination: 2
+Ophthalmoscopy: 1
+Sweat Chloride Test: 1
+Biopsy - testing: 1
+CBC - testing: 1
+
+Urgent Exam Frequency:
+Heart monitoring: 16
+ECG: 16
+Physical examination: 12
+X-ray chest: 12
+MRI: 12
+CT: 12
+Interview: 11
+Microbial cultivation: 6
+PCR - testing: 6
+Temperature measurement: 6
+Blood analysis - ICU: 5
+Blood test: 4
+CBC - testing: 3
+FAST: 3
+USG: 3
+Spirometry: 2
+Serologic testing: 2
+Neurological testing: 1
+Urgent Echo: 1
+Echo: 1
+Biopsy - testing: 1

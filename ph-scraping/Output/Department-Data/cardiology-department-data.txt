@@ -1,0 +1,33 @@
+Total Diagnoses: 28
+Potentially-Fatal Diagnoses: 26
+
+Deciding Exam Frequency:
+Echo: 12
+Angiography: 8
+Urgent Echo: 7
+Interview: 4
+Physical examination: 3
+USG: 3
+Heart monitoring: 2
+ECG: 2
+CT: 2
+FAST: 2
+Biopsy - testing: 1
+MRI: 1
+Thorax percussion: 1
+Chest auscultation: 1
+
+Urgent Exam Frequency:
+Heart monitoring: 17
+ECG: 17
+Interview: 9
+Echo: 8
+Urgent Echo: 7
+Blood pressure measurement : 7
+Angiography: 7
+Neurological testing: 4
+Physical examination: 4
+CT: 2
+FAST: 2
+USG: 2
+MRI: 1

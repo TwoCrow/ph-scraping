@@ -1,0 +1,20 @@
+Total Diagnoses: 51
+Potentially-Fatal Diagnoses: 11
+
+Deciding Exam Frequency:
+Interview: 32
+Physical examination: 18
+MRI: 12
+X-ray lower limb: 11
+X-ray upper limb: 9
+CT: 4
+EMG: 3
+USG: 3
+X-ray head: 2
+Serologic testing: 1
+X-ray back: 1
+X-ray chest: 1
+
+Urgent Exam Frequency:
+Interview: 11
+Physical examination: 11

@@ -1,0 +1,29 @@
+Total Diagnoses: 65
+Potentially-Fatal Diagnoses: 36
+
+Deciding Exam Frequency:
+PCR - testing: 18
+Serologic testing: 17
+RT-PCR testing: 12
+Microbial cultivation: 6
+ELISA testing: 6
+Blood test: 2
+CSF analysis: 2
+Stool analysis: 1
+Biopsy - testing: 1
+
+Urgent Exam Frequency:
+Interview: 31
+Temperature measurement: 29
+Physical examination: 18
+PCR - testing: 10
+RT-PCR testing: 7
+Heart monitoring: 6
+ECG: 6
+Microbial cultivation: 6
+Serologic testing: 6
+Blood analysis - ICU: 5
+ELISA testing: 5
+CBC - testing: 1
+CSF analysis: 1
+Biopsy - testing: 1

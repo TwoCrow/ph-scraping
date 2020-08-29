@@ -9,3 +9,16 @@ C:\Users\Patrick\Desktop\ph-scraping\bin\Debug\netcoreapp2.1\ph-scraping.dll
 C:\Users\Patrick\Desktop\ph-scraping\bin\Debug\netcoreapp2.1\ph-scraping.pdb
 C:\Users\Patrick\Desktop\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.dll
 C:\Users\Patrick\Desktop\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.pdb
+C:\Users\Patrick\Desktop\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.genruntimeconfig.cache
+C:\Users\Patrick\Desktop\Code\ph-scraping\bin\Debug\netcoreapp2.1\ph-scraping.deps.json
+C:\Users\Patrick\Desktop\Code\ph-scraping\bin\Debug\netcoreapp2.1\ph-scraping.runtimeconfig.json
+C:\Users\Patrick\Desktop\Code\ph-scraping\bin\Debug\netcoreapp2.1\ph-scraping.runtimeconfig.dev.json
+C:\Users\Patrick\Desktop\Code\ph-scraping\bin\Debug\netcoreapp2.1\ph-scraping.dll
+C:\Users\Patrick\Desktop\Code\ph-scraping\bin\Debug\netcoreapp2.1\ph-scraping.pdb
+C:\Users\Patrick\Desktop\Code\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.csprojAssemblyReference.cache
+C:\Users\Patrick\Desktop\Code\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.AssemblyInfoInputs.cache
+C:\Users\Patrick\Desktop\Code\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.AssemblyInfo.cs
+C:\Users\Patrick\Desktop\Code\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\Desktop\Code\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.dll
+C:\Users\Patrick\Desktop\Code\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.pdb
+C:\Users\Patrick\Desktop\Code\ph-scraping\obj\Debug\netcoreapp2.1\ph-scraping.genruntimeconfig.cache

@@ -1,0 +1,21 @@
+Total Diagnoses: 30
+Potentially-Fatal Diagnoses: 0
+
+Deciding Exam Frequency:
+Physical examination: 3
+Serologic testing: 3
+X-ray upper limb: 3
+X-ray lower limb: 3
+Stool analysis: 2
+Fungal cultivation: 2
+Blood test: 2
+Nasal cavity inspection: 2
+Microbial cultivation: 2
+Skin allergy test: 2
+Evaluation: 2
+Oral cavity inspection: 1
+Laryngoscopy: 1
+X-ray back: 1
+X-ray chest: 1
+
+Urgent Exam Frequency:

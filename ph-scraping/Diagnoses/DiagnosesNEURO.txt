@@ -1533,6 +1533,10 @@
         </Tags>
     </GameDBMedicalCondition>
 
+
+
+    <!-- ================================================== TRAUMAS ================================================== -->
+
     <!-- Concussion -->
     <GameDBMedicalCondition ID="TRM_CCS">
         <AbbreviationLocID>TRM_CCS_DESCRIPTION</AbbreviationLocID>
@@ -2118,6 +2122,8 @@
         <InsurancePayment>5500</InsurancePayment>
     </GameDBMedicalCondition>
 
+    <!-- ===================================== NEW DIAGNOSES ===================================== -->
+
     <!-- Transient ischemic attack -->
     <GameDBMedicalCondition ID="DIA_051">
         <AbbreviationLocID>DIA_051_DESCRIPTION</AbbreviationLocID>
@@ -2358,4 +2364,191 @@
             <Tag>disease</Tag>
         </Tags>
     </GameDBMedicalCondition>
+
+
+
+
+    <!-- ===================================== OBSOLETE ===================================== -->
+
+    <!-- Tick-borne encephalitis -->
+    <GameDBMedicalCondition ID="DIA_TBE">
+        <AbbreviationLocID>DIA_TBE_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MALAISE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLE_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIZZINESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LEUKOPENIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_WEAKNESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SLURRED_SPEECH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LFT_HIGH_LEVEL</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_TBE_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEMIPARESIS</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_SPINAL_FLUID_ANALYSIS_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_CORTICOSTEROIDS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1167</IconIndex>
+        <DepartmentRef>DPT_NEUROLOGY</DepartmentRef>
+        <InsurancePayment>1300</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Rabies -->
+    <GameDBMedicalCondition ID="DIA_RAB">
+        <AbbreviationLocID>DIA_RAB_DESCRIPTION</AbbreviationLocID>
+        <Duration>4</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NAUSEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEMIPARESIS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SLEEPING_DIFFICULTIES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ANXIETY</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HALLUCINATION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RABIES_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRREGULAR_HEARTBEAT</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_EEG</ExaminationRef>
+            <ExaminationRef>EXM_ECG</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
+            <ExaminationRef>EXM_PCR_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_RABIES_IMMUNE_GLOBULIN</TreatmentRef>
+            <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1755</IconIndex>
+        <DepartmentRef>DPT_NEUROLOGY</DepartmentRef>
+        <InsurancePayment>1700</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
 </Database>

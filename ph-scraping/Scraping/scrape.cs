@@ -1,4 +1,7 @@
 // Created by Patrick Sherbondy
+
+// 8/21/2020: Added new information to diagnoses. Added new output formatting option for Google Drive.
+// 8/18/2020: Added new symptoms, treatments, and diagnoses from the Infectious Disease DLC.
 // 4/27/2020: Implemented ability to get all relevant information from the Diagnoses files.
 
 using System;
@@ -16,25 +19,27 @@ namespace DiagnosesScraper
     class Symptom
     {
         public string SymptomName { get; set; }
-        public string Probability { get; set; }
+        public int Probability { get; set; }
         public List<string> Examinations { get; set; }
         public string Treatment { get; set; }
         public string Collapse { get; set; }
         public string CollapseTime { get; set; }
         public string DeathTime { get; set; }
+        public string Hazard { get ; set; }
 
         public Symptom()
         {
             SymptomName = " ";
-            Probability = " ";
+            Probability = 0;
             Examinations = new List<string>();
             Treatment = "None";
             Collapse = "N/A";
             CollapseTime = "N/A";
             DeathTime = "N/A";
+            Hazard = "None";
         }
 
-        public Symptom(string symptom, string probability, List<string> examinations, string treatment, string collapse, string collapseTime, string deathTime)
+        public Symptom(string symptom, int probability, List<string> examinations, string treatment, string collapse, string collapseTime, string deathTime, string hazard)
         {
             SymptomName = symptom;
             Probability = probability;
@@ -43,6 +48,7 @@ namespace DiagnosesScraper
             Collapse = collapse;
             CollapseTime = collapseTime;
             DeathTime = deathTime;
+            Hazard = Hazard;
         }
 
         public Symptom clone()
@@ -85,13 +91,18 @@ namespace DiagnosesScraper
     {
         public string DeptName { get; set; }
         public int TotalDiseases { get; set; }
-        public List<string> ExamData { get; set; }
+        public int TotalFatalDiseases { get; set; }
+        public Dictionary<string, int> DecidingExams { get; set; }
+        // Exams that uncover a symptom capable of causing a collapse.
+        public Dictionary<string, int> UrgentExams { get; set; }
 
         public DeptData(string name)
         {
             DeptName = name;
             TotalDiseases = 0;
-            ExamData = new List<string>();
+            TotalFatalDiseases = 0;
+            DecidingExams = new Dictionary<string, int>();
+            UrgentExams = new Dictionary<string, int>();
         }
     }
 
@@ -99,6 +110,16 @@ namespace DiagnosesScraper
     {
         // Keeps a running list (yes I know it's a hashtable) of all possible symptoms in the game and their various stats.
         public static Hashtable symptomList = new Hashtable();
+        // Keeps a list of symptoms that can cause death.
+        public static HashSet<string> fatalSymptoms = new HashSet<string>();
+        // Keeps a list of all examinations.
+        public static List<string> examsList = new List<string>();
+        // Keeps a list of all treatments.
+        public static List<string> treatmentList = new List<string>();
+        // Creates a dictionary that pairs the in-game exam names with grammatically correct exam names.
+        public static Dictionary<string, string> examPairs = new Dictionary<string, string>();
+        // This dictionary is similar to the previous one, though is used for treatments.
+        public static Dictionary<string, string> treatmentPairs = new Dictionary<string, string>();
         // Keeps a running list of all possible diseases in the game and their various stats, including a list of symptoms.
         public static List<Disease> diseaseList = new List<Disease>();
 
@@ -115,6 +136,7 @@ namespace DiagnosesScraper
         // This flag enables data collection for symptoms and exams. It will drag down runtime by a few uncomfortable seconds if set to true.
         // It is currently a little bit broken (it repeats some outputs) and vestigial.
         public static bool getDeptData = true;
+        public static int totalDiagnoses = 0;
         
         static void scrape()
         {
@@ -124,17 +146,19 @@ namespace DiagnosesScraper
             string[] ortho = System.IO.File.ReadAllLines(@".\Diagnoses\DiagnosesORTHO.txt", Encoding.UTF8);
             string[] cardio = System.IO.File.ReadAllLines(@".\Diagnoses\DiagnosesCARDIO.txt", Encoding.UTF8);
             string[] neuro = System.IO.File.ReadAllLines(@".\Diagnoses\DiagnosesNEURO.txt", Encoding.UTF8);
+            string[] infectious = System.IO.File.ReadAllLines(@".\Diagnoses\DiagnosesINFECT.txt", Encoding.UTF8);
 
             string[] symptoms1 = System.IO.File.ReadAllLines(@".\Symptoms\Symptoms_main.txt", Encoding.UTF8);
             string[] symptoms2 = System.IO.File.ReadAllLines(@".\Symptoms\Symptoms.txt", Encoding.UTF8);
 
             // Used to gather data on the various departments.
-            DeptData erData = new DeptData("Emergency");
-            DeptData surgData = new DeptData("General Surgery");
-            DeptData internData = new DeptData("Internal Medicine");
-            DeptData orthoData = new DeptData("Orthopedics");
-            DeptData cardioData = new DeptData("Cardiology");
-            DeptData neuroData = new DeptData("Neurology");
+            DeptData erData = new DeptData("emergency");
+            DeptData surgData = new DeptData("general-surgery");
+            DeptData internData = new DeptData("internal-medicine");
+            DeptData orthoData = new DeptData("orthopedics");
+            DeptData cardioData = new DeptData("cardiology");
+            DeptData neuroData = new DeptData("neurology");
+            DeptData infectiousData = new DeptData("infectious-diseases");
             
             // Processes the four files in the Localization folder, allowing for the proper in-game names and descriptions
             // to appear in the final output.
@@ -144,49 +168,152 @@ namespace DiagnosesScraper
             processTable("TreatmentTable.txt", treatmentTable, false);
 
             // Processes all possible symptoms in the game so that they can be paired with various diagnoses.
+            // There are two symptoms variables because the game decided to break up its symptoms into two files, so this makes life easier.
+            // Except it doesn't, because subsequent DLC files have symptoms, diagnoses, and treatments just scattered all about the place.
             processSymptoms(symptoms1);
             processSymptoms(symptoms2);
+
+            // Used to create pleasing grammatically-correct sentences in the final output files.
+            generateExamsAndTreatments();
+            createGrammaticalPairs();
+
+            // Backs up the previous output files. This is used for comparative purposes after the program runs.
+            backupPreviousOutputFiles("emergency");
+            backupPreviousOutputFiles("general-surgery");
+            backupPreviousOutputFiles("internal-medicine");
+            backupPreviousOutputFiles("orthopedics");
+            backupPreviousOutputFiles("cardiology");
+            backupPreviousOutputFiles("neurology");
+            backupPreviousOutputFiles("infectious-diseases");
 
             // Processes the individual diseases for each department, bringing all the hard work from the previous
             // methods together.
             processDiagnoses(er, "emergency", erData);
             generateDataFile(erData);
+            generateOutputFile("emergency");
 
             processDiagnoses(surg, "general-surgery", surgData);
             generateDataFile(surgData);
+            generateOutputFile("general-surgery");
 
             processDiagnoses(intern, "internal-medicine", internData);
             generateDataFile(internData);
+            generateOutputFile("internal-medicine");
 
             processDiagnoses(ortho, "orthopedics", orthoData);
             generateDataFile(orthoData);
+            generateOutputFile("orthopedics");
 
             processDiagnoses(cardio, "cardiology", cardioData);
             generateDataFile(cardioData);
+            generateOutputFile("cardiology");
 
             processDiagnoses(neuro, "neurology", neuroData);
             generateDataFile(neuroData);
+            generateOutputFile("neurology");
 
+            processDiagnoses(infectious, "infectious-diseases", infectiousData);
+            generateDataFile(infectiousData);
+            generateOutputFile("infectious-diseases");
 
-            // Shockingly, this generates the output file.
-            generateOutputFile();
+            // Merges the output files for easy copy / pasting.
+            //mergeOutputFiles();
+            // Compares the old and new files and creates a separate file noting any changes.
+            compareFiles("emergency");
+            compareFiles("general-surgery");
+            compareFiles("internal-medicine");
+            compareFiles("orthopedics");
+            compareFiles("cardiology");
+            compareFiles("neurology");
+            compareFiles("infectious-diseases");
+
+            Console.WriteLine("Total diagnoses: {0}", totalDiagnoses);
         }
 
-        static void generateDataFile(DeptData data)
+        static void compareFiles(string dept)
         {
-            if (!getDeptData)
+            string oldPath = @".\Output\Previous\previous-" + dept + "-diagnoses.txt";
+            string newPath = @".\Output\Formatted-Diagnoses\" + dept + "-diagnoses.txt";
+
+            string count1 = File.ReadAllText(oldPath);
+            string count2 = File.ReadAllText(newPath);
+
+            string[] oldFile = File.ReadAllLines(oldPath);
+            string[] newFile = File.ReadAllLines(newPath);
+
+            // A very simple, homebrew way of notifying me of any changes between files.
+            // It's very unlikely that any significant changes to the content of a file would make it the same
+            // length as the old one.
+            if (count1.Length != count2.Length)
             {
-                return;
+                Console.WriteLine("! Difference noticed in {0}.txt !", dept);
+            }
+        }
+
+        static void mergeOutputFiles()
+        {
+            string file = @".\Output\Merged\comprehensive-diagnoses-list.txt";
+
+            if (File.Exists(file))
+            {
+                File.Delete(file);
             }
 
-            // Contains all treatments and symptoms across every currenttly-implemented disease. These arrays contain duplicate strings.
-            List<string> allSymptoms = new List<string>();
-            List<string> allExams = new List<string>();
+            string[] er = System.IO.File.ReadAllLines(@".\Output\Formatted-Diagnoses\emergency-diagnoses.txt");
+            string[] surg = System.IO.File.ReadAllLines(@".\Output\Formatted-Diagnoses\general-surgery-diagnoses.txt");
+            string[] intern = System.IO.File.ReadAllLines(@".\Output\Formatted-Diagnoses\internal-medicine-diagnoses.txt");
+            string[] ortho = System.IO.File.ReadAllLines(@".\Output\Formatted-Diagnoses\orthopedics-diagnoses.txt");
+            string[] cardio = System.IO.File.ReadAllLines(@".\Output\Formatted-Diagnoses\cardiology-diagnoses.txt");
+            string[] neuro = System.IO.File.ReadAllLines(@".\Output\Formatted-Diagnoses\neurology-diagnoses.txt");
+            string[] infectious = System.IO.File.ReadAllLines(@".\Output\Formatted-Diagnoses\infectious-diseases-diagnoses.txt");
 
-            Dictionary<string, int> symptomFreq = new Dictionary<string, int>();
-            Dictionary<string, int> examFreq = new Dictionary<string, int>();
+            File.AppendAllLines(file, er);
+            File.AppendAllLines(file, surg);
+            File.AppendAllLines(file, intern);
+            File.AppendAllLines(file, ortho);
+            File.AppendAllLines(file, cardio);
+            File.AppendAllLines(file, neuro);
+            File.AppendAllLines(file, infectious);
+        }
 
-            string file = @".\Output\" + data.DeptName.ToLower() + "-department-data.txt";
+        // Backs up the 
+        static void backupPreviousOutputFiles(string dept)
+        {
+            string destination = @".\Output\Previous\previous-" + dept + "-diagnoses.txt";
+            string source = @".\Output\Formatted-Diagnoses\" + dept +"-diagnoses.txt";
+
+            if (File.Exists(destination))
+            {
+                File.Delete(destination);
+            }
+
+            File.Copy(source, destination);
+        }
+
+        static void createGrammaticalPairs()
+        {
+            string customFile = @".\Output\exams-and-treatments.txt";
+            string gameFile = @".\Output\exams-and-treatments2.txt";
+
+            string[] customText = File.ReadAllLines(customFile);
+            string[] gameText = File.ReadAllLines(gameFile);
+
+            // This starts at 2 to bypass two unnecessary lines.
+            // Pairs up game and custom exam names.
+            for (int i = 2; i < 65; i++)
+            {
+                examPairs[gameText[i]] = customText[i];
+            }
+
+            for (int i = 68; i < gameText.Length; i++)
+            {
+                treatmentPairs[gameText[i]] = customText[i];
+            }
+        }
+
+        static void generateExamsAndTreatments()
+        {
+            string file = @".\Output\exams-and-treatments2.txt";
 
             if (File.Exists(file))
             {
@@ -196,56 +323,136 @@ namespace DiagnosesScraper
             FileStream ofs = File.Create(file);
             StreamWriter ofp = new StreamWriter(ofs);
 
-            // Populate the string arrays.
+            ofp.WriteLine("Exams\n");
+
+            HashSet<string> examSet = new HashSet<string>();
+            HashSet<string> treatmentSet = new HashSet<string>();
+
+            foreach (string exam in examsList)
+            {
+                if (!examSet.Contains(exam))
+                {
+                    ofp.WriteLine(exam);
+                }
+                    
+                examSet.Add(exam);
+            }
+
+            ofp.WriteLine("\nTreatments\n");
+
+            foreach (string treatment in treatmentList)
+            {
+                if (!treatmentSet.Contains(treatment))
+                {
+                    ofp.WriteLine(treatment);
+                }
+                
+                treatmentSet.Add(treatment);
+            }
+            
+            ofp.Flush();
+            ofp.Close();
+        }
+
+        static void generateDataFile(DeptData data)
+        {
+            if (!getDeptData)
+            {
+                return;
+            }
+
+            string file = @".\Output\Department-Data\" + data.DeptName + "-department-data.txt";
+
+            if (File.Exists(file))
+            {
+                File.Delete(file);
+            }
+
+            FileStream ofs = File.Create(file);
+            StreamWriter ofp = new StreamWriter(ofs);
+
+            // We only want to count exams once per diagnosis, since an exam run on a patient will uncover all possible symptoms. If we increment for each symptom
+            // an exam can uncover, we're effectively counting it multiple times.
+            HashSet<String> seenDecidingExams = new HashSet<string>();
+            HashSet<String> seenUrgentExams = new HashSet<string>();
+
+            bool visitedDiagnosis = false;
+
+            // Iterate through the diagnoses that have been processed for the current department, finding the ones that are guaranteed to appear and can cause
+            // collapse symptoms.
             for (int i = 0; i < diseaseList.Count; i++)
             {
                 for (int j = 0; j < diseaseList[i].Symptoms.Count; j++)
                 {
-                    allSymptoms.Add(diseaseList[i].Symptoms[j].SymptomName);
-
                     for (int k = 0; k < diseaseList[i].Symptoms[j].Examinations.Count; k++)
-                    {
-                        allExams.Add(diseaseList[i].Symptoms[j].Examinations[k]);
+                    {   
+                        string exam = diseaseList[i].Symptoms[j].Examinations[k];
+                        // If the probability equals 100, add it to the DecidingExams dictionary.
+                        if (diseaseList[i].Symptoms[j].Probability == 100 && !seenDecidingExams.Contains(exam))
+                        {
+                            if (data.DecidingExams.ContainsKey(exam))
+                            {
+                                data.DecidingExams[exam] = data.DecidingExams[exam] + 1;
+                            }
+                            else
+                            {
+                                data.DecidingExams[exam] = 1;
+                            }
+
+                            seenDecidingExams.Add(exam);
+                        }
+
+                        // If the symptom can cause death or lead to a collapse, add the exam to the UrgentExams dictionary.
+                        if ((!diseaseList[i].Symptoms[j].DeathTime.Equals("N/A") || !diseaseList[i].Symptoms[j].Collapse.Equals("N/A")) && !seenUrgentExams.Contains(exam))
+                        {
+                            // Add exam to UrgentExams, since it will uncover a symptom that can cause a collapse or death.
+                            if (data.UrgentExams.ContainsKey(exam))
+                            {
+                                data.UrgentExams[exam] = data.UrgentExams[exam] + 1;
+                            }
+                            else
+                            {
+                                data.UrgentExams[exam] = 1;
+                            }
+
+                            seenUrgentExams.Add(exam);
+                        }
+
+                        if ((!diseaseList[i].Symptoms[j].DeathTime.Equals("N/A") || fatalSymptoms.Contains(diseaseList[i].Symptoms[j].Collapse)) && !visitedDiagnosis)
+                        {
+                            data.TotalFatalDiseases++;
+                            visitedDiagnosis = true;
+                        }
                     }
                 }
+
+                // Reset the hash sets.
+                seenDecidingExams.Clear();
+                seenUrgentExams.Clear();
+
+                visitedDiagnosis = false;
             }
 
-            ofp.WriteLine("{0} Data:\n", data.DeptName);
+            ofp.WriteLine("Total Diagnoses: {0}\nPotentially-Fatal Diagnoses: {1}\n", data.TotalDiseases, data.TotalFatalDiseases);
 
-            ofp.WriteLine("Total Diagnoses: {0}", data.TotalDiseases);
+            ofp.WriteLine("Deciding Exam Frequency:");
 
-            // ofp.WriteLine("Symptom Frequency:\n");
+            var list1 = from pair in data.DecidingExams orderby pair.Value descending select pair;
 
-            // // Search for each individual string and start keeping track.
-            // // Yes, I know it's horribly inefficient, but that's fine by me. Runtime is not a concern for this program.
-            // for (int i = 0; i < allSymptoms.Count; i++)
-            // {
-            //     for (int j = 0; j < symptomsDataList.Count; j++)
-            //     {
-            //         int freq = search(allSymptoms, symptomsDataList[j]);
-            //         //symptomFreq.Add(symptomsDataList[j], freq);
-            //         ofp.WriteLine("{0} : {1}", symptomsDataList[j], freq);
-            //     }
-            // }
+            var list2 = from pair in data.UrgentExams orderby pair.Value descending select pair;
 
-            ofp.WriteLine("\nExamination Frequency:\n");
-
-            for (int i = 0; i < examsDataList.Count; i++)
+            foreach(KeyValuePair<string, int> pair in list1)
             {
-                for (int j = 0; j < examsDataList.Count; j++)
-                {
-                    int freq = search(allExams, examsDataList[j]);
-                    //examFreq.Add(examsDataList[j], freq);
-
-                    if (freq >= data.TotalDiseases / 4)
-                    ofp.WriteLine("{0} : {1}", examsDataList[j], freq);
-                }
+                ofp.WriteLine("{0}: {1}", pair.Key, pair.Value);
             }
 
-            // Wipe the lists for use in the next department.
-            symptomsDataList.Clear();
-            examsDataList.Clear();
-            
+            ofp.WriteLine("\nUrgent Exam Frequency:");
+
+            foreach(KeyValuePair<string, int> pair in list2)
+            {
+                ofp.WriteLine("{0}: {1}", pair.Key, pair.Value);
+            }
+
             ofp.Flush();
             ofp.Close();
         }
@@ -265,28 +472,45 @@ namespace DiagnosesScraper
             return count;
         }
 
-        static void generateOutputFile()
+        static string normalize(string temp)
         {
-            string file = @".\Output\formatted-diagnoses.txt";
-            bool useSteamFormat = false, usePlainFormat = false;
+            TextInfo info = new CultureInfo("en-US", false).TextInfo;
 
-            Console.WriteLine("Steam or Plain format? (S / P)");
-            string input = Console.ReadLine();
-            char inputChar = input[0];
+            temp = info.ToTitleCase(temp);
 
-            if (Char.ToLower(inputChar) == 's')
+            if (temp.Contains("And"))
             {
-                useSteamFormat = true;
+                temp = temp.Replace("And", "and");
             }
-            else if (Char.ToLower(inputChar) == 'p')
+
+            if (temp.Contains("Of"))
             {
-                usePlainFormat = true;
+               temp = temp.Replace("Of", "of");
             }
-            else
+
+            if (temp.Contains("The"))
             {
-                Console.WriteLine("Invalid input. Choosing default: Steam format.");
-                useSteamFormat = true;
+                temp = temp.Replace("The", "the");
             }
+
+            if (temp.Contains("’S"))
+            {
+                temp = temp.Replace("’S", "’s");
+            }
+
+            if (temp.Contains("hearbeat"))
+            {
+                temp = temp.Replace("hearbeat", "Heartbeat");
+            }
+
+            return temp;
+        }
+
+        static void generateOutputFile(String deptName)
+        {
+            string file = @".\Output\Formatted-Diagnoses\" + deptName +"-diagnoses.txt";
+            // Used to select which format is desired.
+            bool useSteamFormat = false, usePlainFormat = false, useDriveFormat = true;
 
             if (File.Exists(file))
             {
@@ -296,8 +520,20 @@ namespace DiagnosesScraper
             FileStream ofs = File.Create(file);
             StreamWriter ofp = new StreamWriter(ofs);
 
-            //diseaseList.Sort((x, y) => x.DiseaseName.CompareTo(y.DiseaseName));
+            // Sort the list alphabetically.
+            diseaseList.Sort(delegate(Disease x, Disease y)
+            {
+                if (x.DiseaseName == null && y.DiseaseName == null) 
+                    return 0;
+                else if (x.DiseaseName == null) 
+                    return -1;
+                else if (y.DiseaseName == null) 
+                    return -1;
+                else 
+                    return x.DiseaseName.CompareTo(y.DiseaseName);
+            });
 
+            // Generates a text file with steam-friendly formatting.
             if (useSteamFormat)
             {
                 for (int i = 0; i < diseaseList.Count; i++)
@@ -310,7 +546,7 @@ namespace DiagnosesScraper
                     
                     ofp.WriteLine("");
 
-                    ofp.WriteLine("Department: {0}", diseaseList[i].Department);
+                    //ofp.WriteLine("Department: {0}", diseaseList[i].Department);
                     ofp.WriteLine("Occurrence: {0}", diseaseList[i].Occurrence);
                     ofp.WriteLine("Base Payment: {0}", diseaseList[i].Payment);
 
@@ -332,6 +568,7 @@ namespace DiagnosesScraper
                     ofp.WriteLine("");
                 }
             }
+            // Generates a plaintext file without any special formatting.
             else if (usePlainFormat)
             {
                 for (int i = 0; i < diseaseList.Count; i++)
@@ -344,11 +581,17 @@ namespace DiagnosesScraper
                     
                     ofp.WriteLine("");
 
-                    ofp.WriteLine("Department: {0}", diseaseList[i].Department);
+                    //ofp.WriteLine("Department: {0}", diseaseList[i].Department);
                     ofp.WriteLine("Occurrence: {0}", diseaseList[i].Occurrence);
                     ofp.WriteLine("Base Payment: {0}", diseaseList[i].Payment);
 
                     ofp.WriteLine("");
+
+                    // Sort the symptoms list by probability, with the symptoms most likely to appear being at the top.
+                    diseaseList[i].Symptoms.Sort(delegate(Symptom x, Symptom y)
+                    {
+                        return y.Probability.CompareTo(x.Probability);
+                    });
 
                     ofp.WriteLine("Symptoms:");
 
@@ -364,9 +607,104 @@ namespace DiagnosesScraper
                     ofp.WriteLine("");
                 }
             }
-            // Loop through every disease.
-            
+            else if (useDriveFormat)
+            {
+                ofp.WriteLine("# {0}\n", diseaseList[0].Department);
+                for (int i = 0; i < diseaseList.Count; i++)
+                {
+                    string temp = diseaseList[i].DiseaseName;
+                    
+                    temp = normalize(temp);
 
+                    ofp.WriteLine("## {0} ({1} | ${2})", temp, diseaseList[i].Occurrence, diseaseList[i].Payment);
+                    ofp.WriteLine("");
+                    ofp.WriteLine("{0}", diseaseList[i].Description);
+                    ofp.WriteLine("");
+
+                    // Sort the symptoms list by probability, with the symptoms most likely to appear being at the top.
+                    diseaseList[i].Symptoms.Sort(delegate(Symptom x, Symptom y)
+                    {
+                        return y.Probability.CompareTo(x.Probability);
+                    });
+
+                    ofp.WriteLine("### Symptoms");
+                    ofp.WriteLine("");
+
+                    bool isSerious = false;
+                    bool isFatal = false;
+
+                    // Loop through each symptom for the current disease.
+                    for (int j = 0; j < diseaseList[i].Symptoms.Count; j++)
+                    {
+                        Symptom symptom = diseaseList[i].Symptoms[j];
+
+                        //Console.WriteLine("!" + symptom.DeathTime + "!");
+
+                        // If the symptom cannot cause a collapse, use this format.
+                        if (symptom.Collapse.Equals("N/A") && symptom.DeathTime.Equals("N/A"))
+                        {
+                            ofp.WriteLine("+ {0} ({1}% of cases | {2} Hazard)", normalize(symptom.SymptomName), symptom.Probability, symptom.Hazard);
+                        }
+                        // If the symptom can cause a collapse, then use this format.
+                        else if (!symptom.Collapse.Equals("N/A"))
+                        {
+                            ofp.WriteLine("+ {0} ({1}% of cases | {2} Hazard | __Serious__)", normalize(symptom.SymptomName), symptom.Probability, symptom.Hazard);
+
+                            isSerious = true;
+                        }
+                        else if (!symptom.DeathTime.Equals("N/A"))
+                        {
+                            ofp.WriteLine("+ {0} ({1}% of cases | {2} Hazard | __Fatal__)", normalize(symptom.SymptomName), symptom.Probability, symptom.Hazard);
+
+                            isFatal = true;
+                        }
+
+                        // Prints out the possible exams that will reveal the symptom.
+                        if (symptom.Examinations.Count == 1)
+                        {
+                            ofp.WriteLine("    + Revealed with __{0}__.", examPairs[symptom.Examinations[0]]);
+                        }
+                        else if (symptom.Examinations.Count == 2)
+                        {
+                            ofp.WriteLine("    + Revealed with __{0}__ or __{1}__.", examPairs[symptom.Examinations[0]], examPairs[symptom.Examinations[1]]);
+                        }
+                        else
+                        {
+                            ofp.WriteLine("    + Revealed with __{0}__, __{1}__, or __{2}__.", examPairs[symptom.Examinations[0]], examPairs[symptom.Examinations[1]], examPairs[symptom.Examinations[2]]);
+                        }
+
+                        // Prints out the treatment used to suppress the symptom.
+                        if (!symptom.Treatment.Equals("None"))
+                        {
+                            ofp.WriteLine("    + Treated with __{0}__.", treatmentPairs[symptom.Treatment]);
+                        }
+                        else
+                        {
+                            ofp.WriteLine("    + Cannot be treated.");
+                        }
+
+                        // If the symptom is serious, denote the collapse symptom and its hours.
+                        if (isSerious)
+                        {
+                            ofp.WriteLine("    + Can lead to __{0}__ if left untreated for __{1}__ hours.", symptom.Collapse, symptom.CollapseTime);
+                        }
+
+                        if (isFatal)
+                        {
+                            ofp.WriteLine("    + Can lead to __death__ if left untreated for __{0}__ hours.", symptom.DeathTime);
+                        }
+
+                        isSerious = false;
+                        isFatal = false;
+                    }
+
+                    ofp.WriteLine("");
+                }
+            }
+            
+            // Clear the disease list for the next input file.
+            diseaseList.Clear();
+            
             ofp.Flush();
             ofp.Close();
         }
@@ -474,6 +812,7 @@ namespace DiagnosesScraper
                                 string exam = (string)examTable[examID];
                             
                                 symptom.Examinations.Add(exam);
+                                examsList.Add(exam);
                             }
 
                             i++;
@@ -489,6 +828,7 @@ namespace DiagnosesScraper
                         string treatment = (string)treatmentTable[treatmentID];
 
                         symptom.Treatment = treatment;
+                        treatmentList.Add(treatment);
                     }
                     // Adds the collapse symtpom that can arise from this symptom being untreated, if it exists.
                     else if (symptoms[i].Contains("<CollapseSymptomRef>"))
@@ -537,6 +877,15 @@ namespace DiagnosesScraper
 
                         foundDeathEnd = true;
                     }
+                    // Adds the hazard level for the symptom.
+                    else if (symptoms[i].Contains("<Hazard>"))
+                    {
+                        int start = symptoms[i].IndexOf("<Hazard>") + "<Hazard>".Length;
+                        int end = symptoms[i].IndexOf("</Hazard>");
+                        string hazard = symptoms[i].Substring(start, end - start);
+
+                        symptom.Hazard = hazard;
+                    }
 
                     // Add the collapse time frame.
                     if (foundCollapseStart == true && foundCollapseEnd == true)
@@ -544,7 +893,7 @@ namespace DiagnosesScraper
                         foundCollapseStart = false;
                         foundCollapseEnd = false;
 
-                        string collapseHours = collapseStart + " - " + collapseEnd;
+                        string collapseHours = collapseStart + " to " + collapseEnd;
 
                         symptom.CollapseTime = collapseHours;
                     }
@@ -555,8 +904,10 @@ namespace DiagnosesScraper
                         foundDeathStart = false;
                         foundDeathEnd = false;
 
-                        string deathHours = deathStart + " - " + deathEnd;;
+                        string deathHours = deathStart + " to " + deathEnd;;
                         symptom.DeathTime = deathHours;
+
+                        fatalSymptoms.Add(symptom.SymptomName);
                     }
 
                     i++;
@@ -606,6 +957,9 @@ namespace DiagnosesScraper
                         break;
                     case "neurology":
                         disease.Department = "Neurology";
+                        break;
+                    case "infectious-diseases":
+                        disease.Department = "Infectious Diseases";
                         break;
                 }
 
@@ -681,7 +1035,7 @@ namespace DiagnosesScraper
                                 Symptom temp = (Symptom)symptomList[symptomID];
                                 
                                 symptoms.Add(temp.clone());
-                                symptoms[symptoms.Count - 1].Probability = probability;
+                                symptoms[symptoms.Count - 1].Probability = Int32.Parse(probability);
 
                                 // Used for data collection.
                                 if (!symptomsDataList.Contains(symptoms[symptoms.Count - 1].SymptomName))
@@ -719,6 +1073,7 @@ namespace DiagnosesScraper
 
                 diseaseList.Add(disease);
                 data.TotalDiseases++;
+                totalDiagnoses++;
             }
         }
 

@@ -1,0 +1,29 @@
+public float GetMedicalConditionModifier(GameDBMedicalCondition medicalCondition)
+    {
+      return medicalCondition.HasTag(this.m_state.m_globalEvent.Entry.Tag) ? (float) (1.0 + (double) this.m_state.m_parameterPercent / 100.0) : 1f;
+    }
+
+
+int num = medicalCondition.OccurrenceRef.Entry.OccurrenceRate;
+    if (WorldEventManager.Instance.IsMedicalConditionModifierActive())
+      num = (int) ((double) num * (double) WorldEventManager.Instance.GetMedicalConditionModifier(medicalCondition));
+    return num;
+
+
+
+
+
+if (entry.DepartmentRef != null && entry.DepartmentRef.Entry == this && !entry.Disabled)
+      {
+        this.m_diagnoses.Add(entry);
+        if (entry.HasImmobileSymptom())
+        {
+          this.m_diagnosisRandomizerImmobile.AddObject(entry, this.GetOccurrenceRate(entry));
+        }
+        else
+        {
+          this.m_diagnosisRandomizerMobile.AddObject(entry, this.GetOccurrenceRate(entry));
+          if (entry.HasTag("clinic"))
+            this.m_diagnosisRandomizerClinic.AddObject(entry, this.GetOccurrenceRate(entry));
+        }
+      }

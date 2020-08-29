@@ -1472,7 +1472,7 @@
             <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>TRT_EXERCISE</TreatmentRef>
+            <TreatmentRef>TRT_DOCTOR'S_RECOMMENDATIONS</TreatmentRef>
             <TreatmentRef>TRT_ANTIDEPRESSIVES</TreatmentRef>
             <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
         </Treatments>
@@ -1552,6 +1552,8 @@
             <Tag>clinic</Tag>
         </Tags>
     </GameDBMedicalCondition>
+
+    <!-- ================================================== TRAUMAS ================================================== -->
 
     <!-- Arm contusion -->
     <GameDBMedicalCondition ID="TRM_ACT">
@@ -1911,7 +1913,6 @@
             </GameDBSymptomRules>
             <GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
-                <ProbabilityPercent>80</ProbabilityPercent>
                 <GameDBSymptomRef>SYM_TENDERNESS</GameDBSymptomRef>
             </GameDBSymptomRules>
             <GameDBSymptomRules>
@@ -1955,6 +1956,8 @@
             <Tag>clinic</Tag>
         </Tags>
     </GameDBMedicalCondition>
+
+    <!-- ===================================== NEW DIAGNOSES =====================================-->
 
     <!-- Influenza B -->
     <GameDBMedicalCondition ID="DIA_046">
@@ -2042,6 +2045,98 @@
             <Tag>disease</Tag>
             <Tag>clinic</Tag>
         </Tags>
+    </GameDBMedicalCondition>
+    
+
+    <!-- ===================================== OBSOLETE =====================================-->
+
+    <!-- Influenza A -->
+    <GameDBMedicalCondition ID="DIA_INF">
+        <AbbreviationLocID>DIA_INF_DESCRIPTION</AbbreviationLocID>
+        <Duration>2</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHILLS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MALAISE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SORE_THROAT</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRRITABLE_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NASAL_CONGESTION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SNEEZING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_INFLUENZA_A_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
+            <ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIVIROTICS</TreatmentRef>
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_REST</TreatmentRef>
+            <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
+        </Treatments>
+        <IconIndex>1045</IconIndex>
+        <DepartmentRef>DPT_EMERGENCY</DepartmentRef>
+        <InsurancePayment>200</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
 </Database>

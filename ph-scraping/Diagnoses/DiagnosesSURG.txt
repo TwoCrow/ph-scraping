@@ -2941,6 +2941,8 @@
         </Tags>
     </GameDBMedicalCondition>
 
+    <!-- ================================================== TRAUMAS ================================================== -->
+
     <!-- Liver injury - penetrating -->
     <GameDBMedicalCondition ID="TRM_LIP">
         <AbbreviationLocID>TRM_LIP_DESCRIPTION</AbbreviationLocID>
@@ -3595,6 +3597,8 @@
             <Tag>trauma</Tag>
         </Tags>
     </GameDBMedicalCondition>
+
+    <!-- ===================================== NEW DIAGNOSES ===================================== -->
     
     <!-- Hemolytic uremic syndrome -->
     <GameDBMedicalCondition ID="DIA_047">
@@ -3762,6 +3766,8 @@
             <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
             <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+            <ExaminationRef>EXM_BACTERIA_CULTIVATION_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_ELISA_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
@@ -3769,6 +3775,7 @@
             <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
             <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
             <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
         </Treatments>
         <IconIndex>2240</IconIndex>
         <DepartmentRef>DPT_GENERAL_SURGERY_DEPARTMENT</DepartmentRef>
@@ -3777,6 +3784,194 @@
             <Tag>disease</Tag>
             <Tag>clinic</Tag>
         </Tags>
+    </GameDBMedicalCondition>
+
+
+    <!-- ===================================== OBSOLETE ===================================== -->
+
+    <!-- Acute hepatitis A -->
+    <GameDBMedicalCondition ID="DIA_HEPA">
+        <AbbreviationLocID>DIA_HEPA_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_TENDERNESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ABDOMINAL_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DARK_URINE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_JAUNDICE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LFT_HIGH_LEVEL</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEPATITIS_A_POSITIVE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+            <TreatmentRef>TRT_STOMACHICS</TreatmentRef>
+            <TreatmentRef>TRT_VITAMIN_SUPPLEMENTATION</TreatmentRef>
+            <TreatmentRef>TRT_REST</TreatmentRef>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
+        </Treatments>
+        <IconIndex>1065</IconIndex>
+        <DepartmentRef>DPT_GENERAL_SURGERY_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>400</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Acute hepatitis B -->
+    <GameDBMedicalCondition ID="DIA_HEPB">
+        <AbbreviationLocID>DIA_HEPB_DESCRIPTION</AbbreviationLocID>
+        <Duration>4</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ABDOMINAL_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DARK_URINE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_JAUNDICE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_TENDERNESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MALAISE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NAUSEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LFT_HIGH_LEVEL</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEPATITIS_B_POSITIVE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>25</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PORTAL_HYPERTENSION</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_USG</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+            <TreatmentRef>TRT_INTERFERON_ALPHA-2B</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+            <TreatmentRef>TRT_STOMACHICS</TreatmentRef>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+            <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef> <!--COMPLICATION-->
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_REST</TreatmentRef>
+        </Treatments>
+        <IconIndex>1065</IconIndex>
+        <DepartmentRef>DPT_GENERAL_SURGERY_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>900</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
     </GameDBMedicalCondition>
 
 </Database>

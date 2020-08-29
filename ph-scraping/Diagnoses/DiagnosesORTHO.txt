@@ -45,7 +45,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -111,7 +111,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_EMG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_ELBOW_PAD</TreatmentRef>
@@ -213,7 +213,7 @@
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef> <!--COMPLICATION-->
             <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -292,7 +292,7 @@
             <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -358,7 +358,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROID_INJECTIONS</TreatmentRef>
@@ -442,7 +442,7 @@
             <ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
@@ -523,7 +523,7 @@
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
             <ExaminationRef>EXM_EMG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
@@ -625,7 +625,7 @@
             <ExaminationRef>EXM_CRP</ExaminationRef>
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_EMG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
@@ -678,7 +678,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_BOSTON_BRACE</TreatmentRef>
@@ -750,7 +750,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_BACK</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_BOSTON_BRACE</TreatmentRef>
@@ -812,7 +812,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
@@ -880,7 +880,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -947,7 +947,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EXERCISE</TreatmentRef>
@@ -1010,7 +1010,7 @@
             <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_USG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROID_INJECTIONS</TreatmentRef>
@@ -1089,7 +1089,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -1158,7 +1158,7 @@
             <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_USG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROID_INJECTIONS</TreatmentRef>
@@ -1231,7 +1231,7 @@
             <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_USG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROID_INJECTIONS</TreatmentRef>
@@ -1288,7 +1288,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_PROLIFERATION_THERAPY</TreatmentRef>
@@ -1304,6 +1304,8 @@
             <Tag>clinic</Tag>
         </Tags>
     </GameDBMedicalCondition>
+
+    <!-- ================================================== TRAUMAS ================================================== -->
     
     <!-- Deep wound on hand -->
     <GameDBMedicalCondition ID="TRM_DWH">
@@ -1361,7 +1363,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -1431,7 +1433,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -1500,7 +1502,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -1574,7 +1576,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -1648,7 +1650,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_NSAIDS</TreatmentRef>
@@ -1707,7 +1709,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -1779,7 +1781,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_NSAIDS</TreatmentRef>
@@ -1837,7 +1839,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -1909,7 +1911,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_NSAIDS</TreatmentRef>
@@ -1968,7 +1970,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CLOSED_REDUCTION</TreatmentRef>
@@ -2026,7 +2028,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_RICE</TreatmentRef>
@@ -2092,7 +2094,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_ARM_CAST</TreatmentRef>
@@ -2166,7 +2168,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -2253,7 +2255,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -2324,7 +2326,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_ARM_CAST</TreatmentRef>
@@ -2391,7 +2393,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_ARM_CAST</TreatmentRef>
@@ -2464,7 +2466,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -2551,7 +2553,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -2623,7 +2625,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -2690,7 +2692,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_LEG_CAST</TreatmentRef>
@@ -2763,7 +2765,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -2850,7 +2852,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -2921,7 +2923,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_LEG_CAST</TreatmentRef>
@@ -2988,7 +2990,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_LEG_CAST</TreatmentRef>
@@ -3055,7 +3057,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_LEG_CAST</TreatmentRef>
@@ -3128,7 +3130,7 @@
             <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -3214,7 +3216,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_LEG_CAST</TreatmentRef>
@@ -3291,7 +3293,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_LOWER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_LEG_CAST</TreatmentRef>
@@ -3368,7 +3370,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_UPPER_LIMB</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_ARM_CAST</TreatmentRef>
@@ -3440,7 +3442,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -3513,7 +3515,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -3582,7 +3584,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_EAR_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_HEAD</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -3644,7 +3646,7 @@
             <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_X_RAY_HEAD</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CLOSED_REDUCTION</TreatmentRef>

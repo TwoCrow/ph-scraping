@@ -1,0 +1,217 @@
+Exams
+
+an MRI
+microbial cultivation
+a skin allergy test
+an angiography
+an X-ray of the lower limb
+an urgent echocardiogram
+an echocardiogram
+a physical examination
+a CT scan
+a polymerase chain reaction (PCR) test
+stool analysis
+abdominal palpation
+a biopsy
+USG
+FAST
+CSF analysis
+spirometry
+a blood test
+serologic testing
+an evaluation
+gonioscopy
+an X-ray of the chest
+CT enterography
+an X-ray of the upper limb
+gastroscopy
+an ear examination
+transient elastography
+an X-ray of the head
+fungal cultivation
+ophthalmoscopy
+heart monitoring
+an ECG
+a sweat chloride test
+barium swallow
+a laryngoscopy
+a nasal cavity inspection
+microbial sampling
+an elastase test
+peritoneal fluid analysis
+an EMG
+a X-ray of the back
+a oral cavity inspection
+ELISA testing
+a complete blood count (CBC)
+blood analysis in the ICU
+an interview
+speech listening
+a basic visual test
+chest auscultation
+urine analysis
+CRP
+audiometry
+neck palpation
+neurological testing
+temperature measurement
+an EEG
+blood pressure measurement
+thorax percussion
+tonometry
+perimetry
+post-surgical (PS) blood control
+RT-PCR testing
+pulse oxymetry
+
+Treatments
+
+RICE
+antibiotics
+antihistamines
+nitrates
+numbing ointment
+a leg cast
+NSAIDs
+beta blockers
+wound closure
+antimycotics
+pulmonary surgery
+corticosteroids
+IV antibiotics
+antibiotic ointment
+antihelmintics
+laparoscopic surgery
+shock wave lithotripsy
+IV nutrition
+abdominal surgery
+oxygenotherapy
+blood transfusion
+osteomyelitis surgery
+IV TPA
+a craniotomy
+antivirals
+bronchodilators
+thrombolytics
+diet modification
+exercise
+an arm orthosis
+fracture surgery of the arm
+eye surgery
+desmopressin
+analgesics
+IV immunoglobulin
+fracture surgery of the leg
+diuretics
+cardiovascular surgery
+proton pump inhibitors
+proliferation therapy
+an ice wrap
+an arm cast
+ear drops
+ethanol treatment
+fracture surgery of the head
+closed reduction
+antifungal ointment
+triple therapy treatment
+corticosteroid injections
+ace inhibitors
+rest
+interferon alpha-2B
+insulin therapy
+hip replacement surgery
+sleeping drugs
+dialysis
+chelation therapy
+iron supplements
+anticoagulants
+IV corticosteroids
+endoscopic surgery
+saline nasal spray
+defibrillation
+eye drops
+stapedectomy
+MIEP
+joint surgery of the leg
+joint surgery of the arm
+PERT
+vitamin-D supplements
+thoracentesis
+vasodilators
+rabies immunoglobulin
+renal vascular surgery
+compression wraps
+liver medication
+a boston brace
+antiparasitic drugs
+a platelet transfusion
+synthetic thyroid hormones
+antithyroids
+an elbow pad
+band ligation
+botulinum antitoxin
+steroid cream
+mannitol doses
+hydroxyurea
+A1AT replacement
+spasmolytics
+emergency care
+IV infusion
+vitamin supplementation
+a leg orthosis
+anxiolytics
+antiseptics
+a bandage
+IV atropine
+rehydration
+life support
+tranquilizers
+purgatives
+foot cream
+replantation
+antidepressants
+antidiarrheals
+recommendations
+cough suppressants
+stomachics
+antipyretics
+antipsychotics
+plasmapheresis
+antihemorrhagics
+antacids
+antihypertensive medication
+IV calcium gluconate
+VP shunting
+endoscopic cauterization
+nasal drops
+bone strengthening pills
+B-complex supplement
+artificial ventilation
+pressure bandage
+mucolytics
+EMS
+anticholinergics
+anti-inflammatory cream
+antiarrhythmics
+pericardiocentesis
+anti-seizure medicine
+incision and drainage
+IV passive immunotherapy
+blood component therapy
+chloramphenicol
+intravenous ciprofloxacin
+ciprofloxacin
+azithromycin
+antimalarial medication
+doxycycline
+minocycline
+IM antibiotics
+supportive therapy
+complex antiviral therapy
+experimental serum
+antisense therapy
+vancomycin
+fluconazole
+nitazoxanide
+intravenous doxycycline
+oseltamivir

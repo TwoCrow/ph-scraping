@@ -1,0 +1,1823 @@
+# General Surgery
+
+## Acute Renal Failure (Common | $2000)
+
+Acute renal failure refers to an abrupt loss of kidney function, effectively seizing the ability to filter the blood and produce urine. The causes can be many, but are usually due to extensive tissue damage or decreased kidney blood flow. 
+
+### Symptoms
+
++ Kidney Tissue Damaged (100% of cases | Medium Hazard)
+    + Revealed with __an MRI__.
+    + Treated with __dialysis__.
++ Oliguria (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Cannot be treated.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Fatigue (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Loss of Appetite (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Vomiting (70% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Hypertension (70% of cases | High Hazard | __Serious__)
+    + Revealed with __blood pressure measurement__.
+    + Treated with __antihypertensive medication__.
+    + Can lead to __Heart failure__ if left untreated for __6 to 24__ hours.
++ Lipiduria (60% of cases | Low Hazard)
+    + Revealed with __urine analysis__.
+    + Cannot be treated.
++ Confusion (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __tranquilizers__.
++ Edema (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diuretics__.
++ Hypocalcaemia (50% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __IV calcium gluconate__.
++ Tremor (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __beta blockers__.
++ Azotemia (50% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __dialysis__.
++ Chest Pain (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __thorax percussion__.
+    + Treated with __analgesics__.
++ Elevated CRP (1% of cases | Low Hazard)
+    + Revealed with __CRP__.
+    + Treated with __NSAIDs__.
+
+## Appendicitis (Common | $2700)
+
+Appendicitis refers to infection in the appendix, which becomes obstructed and swollen. A ruptured appendix can be fatal and thus appendicitis is one of the most common reasons for abdominal surgery.
+
+### Symptoms
+
++ Bellybutton Pain (100% of cases | Medium Hazard)
+    + Revealed with __abdominal palpation__.
+    + Treated with __laparoscopic surgery__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Diarrhea (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Nausea (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Vomiting (70% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Tenderness (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Abdominal Cramps (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __spasmolytics__.
++ Loss of Appetite (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Elevated CRP (60% of cases | Low Hazard)
+    + Revealed with __CRP__.
+    + Treated with __NSAIDs__.
++ Bacteremia (20% of cases | High Hazard | __Serious__)
+    + Revealed with __blood analysis in the ICU__ or __microbial cultivation__.
+    + Treated with __IV antibiotics__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
+
+## Bacterial Gastroenteritis (Common | $300)
+
+Bacterial gastroenteritis is common gastrointestinal disease, in most cases lasting a few days.
+
+### Symptoms
+
++ Campylobacter In Stool (100% of cases | High Hazard | __Serious__)
+    + Revealed with __microbial cultivation__.
+    + Treated with __antibiotics__.
+    + Can lead to __Dehydration__ if left untreated for __6 to 24__ hours.
++ Diarrhea (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Abdominal Cramps (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __spasmolytics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Thirst (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rehydration__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Bloating (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Stomach Pain (40% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __spasmolytics__.
++ Dehydration (30% of cases | High Hazard | __Serious__)
+    + Revealed with __a physical examination__.
+    + Treated with __rehydration__.
+    + Can lead to __Exhaustion__ if left untreated for __1 to 24__ hours.
++ Excessive Belching (30% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
+
+## Blunt Pancreas Laceration (Common | $3600)
+
+Blunt pancreas laceration is caused by impact, injury or physical attack, but with no presence of an open wound.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Abdominal Pain (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Blunt Pancreas Laceration (100% of cases | High Hazard | __Serious__)
+    + Revealed with __USG__ or __FAST__.
+    + Treated with __abdominal surgery__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __6 to 24__ hours.
++ Tachycardia (60% of cases | High Hazard | __Serious__)
+    + Revealed with __heart monitoring__ or __an ECG__.
+    + Treated with __antiarrhythmics__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
++ Bruise (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __an ice wrap__.
++ Hypotension (50% of cases | Low Hazard)
+    + Revealed with __blood pressure measurement__.
+    + Treated with __diet modification__.
+
+## Blunt Spleen Rupture (Common | $4000)
+
+Blunt spleen rupture is caused by impact, injury or physical attack, but with no presence of an open wound.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Blunt Spleen Rupture (100% of cases | High Hazard | __Serious__)
+    + Revealed with __FAST__ or __a CT scan__.
+    + Treated with __abdominal surgery__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __6 to 24__ hours.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Bruise (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __an ice wrap__.
++ Confusion (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __tranquilizers__.
++ Fainting (70% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __neurological testing__.
+    + Treated with __oxygenotherapy__.
+    + Can lead to __Unconsciousness__ if left untreated for __1 to 24__ hours.
++ Anxiety (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __anxiolytics__.
++ Nausea (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Hypotension (70% of cases | Low Hazard)
+    + Revealed with __blood pressure measurement__.
+    + Treated with __diet modification__.
++ Tachycardia (70% of cases | High Hazard | __Serious__)
+    + Revealed with __heart monitoring__ or __an ECG__.
+    + Treated with __antiarrhythmics__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
++ Pale Skin (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __B-complex supplement__.
+
+## Calculus In Bladder (Common | $400)
+
+Bladder stones can be formed in the bladder due to a mineralization of concentrated urine. There will only be symptoms if the flow of urine is compromised.
+
+### Symptoms
+
++ Bladder Stones Detected (100% of cases | Low Hazard)
+    + Revealed with __USG__.
+    + Treated with __shock wave lithotripsy__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Cloudy Urine (70% of cases | Low Hazard)
+    + Revealed with __an interview__, __a physical examination__, or __urine analysis__.
+    + Treated with __rehydration__.
++ Frequent Urination (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Strong-Smelling Urine (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __rehydration__.
++ Hematuria (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Painful Urination (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rehydration__.
++ Dysuria (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __analgesics__.
+
+## Calculus of Ureter (Common | $700)
+
+Kidney stones, also known as urolithiasis, are usually concretions of calcium. Even though the stones usually pass on their own through the urinary tract, they can sometimes get stuck in the ureter, which is an extremely painful condition.
+
+### Symptoms
+
++ Ureter Stone Detected (100% of cases | Low Hazard)
+    + Revealed with __USG__.
+    + Treated with __shock wave lithotripsy__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Cloudy Urine (70% of cases | Low Hazard)
+    + Revealed with __an interview__, __a physical examination__, or __urine analysis__.
+    + Treated with __rehydration__.
++ Frequent Urination (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Hematuria (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Painful Urination (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rehydration__.
++ Dysuria (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __analgesics__.
++ Weakness (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
+
+## Campylobacteriosis (Common | $600)
+
+Campylobacteriosis refers to a common infection caused most commonly by Campylobacter jejuni. It is often a food-borne illness.
+
+### Symptoms
+
++ C. Jejuni Detected (100% of cases | Low Hazard)
+    + Revealed with __ELISA testing__.
+    + Treated with __antibiotics__.
++ Fever (90% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Diarrhea (90% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Cramps (90% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Abdominal Pain (90% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Headache (75% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Muscle Pain (75% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __NSAIDs__.
++ High Fever (10% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
+    + Can lead to __Exhaustion__ if left untreated for __2 to 8__ hours.
++ Bacteremia (10% of cases | High Hazard | __Serious__)
+    + Revealed with __blood analysis in the ICU__ or __microbial cultivation__.
+    + Treated with __IV antibiotics__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
+
+## Cholangitis (Common | $1100)
+
+Cholangitis is an infection of the bile duct usually caused by bacteria ascending from the duodenum. It occurs usually when the bile duct is already partially blocked by gallstones.
+
+### Symptoms
+
++ Inflamed Bilduct (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an MRI__.
+    + Treated with __IV antibiotics__.
+    + Can lead to __Heart failure__ if left untreated for __6 to 24__ hours.
++ Fatigue (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Jaundice (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Abnormal LFT (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Abdominal Pain (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Itching (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antihistamines__.
++ Chills (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antipyretics__.
++ Night Sweats (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __NSAIDs__.
++ Tremor (40% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __beta blockers__.
+
+## Cholecystitis (Common | $2800)
+
+Cholecystitis is inflammation and infection of the gallbladder, usually due to blockage of the cystic duct by a gallstone. 
+
+### Symptoms
+
++ Cystic Duct Obstructed (100% of cases | Medium Hazard)
+    + Revealed with __USG__.
+    + Treated with __laparoscopic surgery__.
++ Nausea (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Vomiting (70% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Jaundice (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Gallbladder Rupture (50% of cases | High Hazard | __Serious__)
+    + Revealed with __FAST__ or __USG__.
+    + Treated with __abdominal surgery__.
+    + Can lead to __Septic shock__ if left untreated for __3 to 10__ hours.
+
+## Chronic Kidney Disease (Common | $1500)
+
+Chronic kidney disease refers to a gradual loss of kidney function. The most common cause is untreated diabetes mellitus.
+
+### Symptoms
+
++ Kidney Progressive Damage (100% of cases | High Hazard | __Serious__)
+    + Revealed with __a CT scan__.
+    + Treated with __dialysis__.
+    + Can lead to __Exhaustion__ if left untreated for __6 to 24__ hours.
++ Sleeping Problems (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __sleeping drugs__.
++ Azotemia (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __dialysis__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Weakness (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Hypertension (60% of cases | High Hazard | __Serious__)
+    + Revealed with __blood pressure measurement__.
+    + Treated with __antihypertensive medication__.
+    + Can lead to __Heart failure__ if left untreated for __6 to 24__ hours.
++ Tenderness (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Abdominal Pain (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Confusion (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __tranquilizers__.
++ Nausea (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Vomiting (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Loss of Appetite (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Back Pain (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Edema (40% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diuretics__.
++ Anemia (30% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Osteoporosis (20% of cases | Low Hazard)
+    + Revealed with __a CT scan__.
+    + Treated with __bone strengthening pills__.
+
+## Cirrhosis (Common | $1400)
+
+Cirrhosis describes a condition where the liver is malfunctioning due to long-term damage; normal liver tissue is replaced with scar tissue.
+
+### Symptoms
+
++ Sclerotic Liver Tissue (100% of cases | Medium Hazard)
+    + Revealed with __transient elastography__.
+    + Treated with __liver medication__.
++ Jaundice (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Loss of Appetite (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ A1at Deficiency (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __A1AT replacement__.
++ Nausea (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Dark Urine (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __rehydration__.
++ Abnormal LFT (60% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Fatigue (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Portal Hypertension (50% of cases | Medium Hazard)
+    + Revealed with __USG__ or __FAST__.
+    + Treated with __beta blockers__.
++ Slurred Speech (50% of cases | Low Hazard)
+    + Revealed with __speech listening__.
+    + Cannot be treated.
++ Weakness (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Confusion (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __tranquilizers__.
++ Hair Loss (40% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __recommendations__.
++ Hypertension (30% of cases | High Hazard | __Serious__)
+    + Revealed with __blood pressure measurement__.
+    + Treated with __antihypertensive medication__.
+    + Can lead to __Heart failure__ if left untreated for __6 to 24__ hours.
+
+## Coeliac Disease (Common | $800)
+
+Coeliac disease is an autoimmune disorder where the immune system reacts to dietary gluten present in wheat, rye and barley. The reaction causes inflammation in the small intestines and thus malabsorption of nutrients.
+
+### Symptoms
+
++ Celiac Antibodies Detected (100% of cases | Low Hazard)
+    + Revealed with __serologic testing__.
+    + Treated with __diet modification__.
++ Diarrhea (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Fatigue (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Anemia (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Headache (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Muscle and Joint Pain (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rest__.
++ Irritability (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __tranquilizers__.
++ Itchy Blisters (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __numbing ointment__.
++ Malnutrition (40% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Osteoporosis (30% of cases | Low Hazard)
+    + Revealed with __a CT scan__.
+    + Treated with __bone strengthening pills__.
+
+## Crohn's Disease (Common | $800)
+
+Crohn's disease is an inflammatory bowel disease that affects the entire intestine. The exact cause is unknown, however, it is evident that there are genetic, environmental and autoimmune components.
+
+### Symptoms
+
++ Crohn's Disease Discovered (100% of cases | Low Hazard)
+    + Revealed with __CT enterography__.
+    + Treated with __corticosteroids__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Abdominal Cramps (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __spasmolytics__.
++ Diarrhea (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Fever (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Hematochezia (60% of cases | Medium Hazard)
+    + Revealed with __stool analysis__.
+    + Treated with __recommendations__.
++ Fat Malabsorption (60% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __PERT__.
++ Anemia (60% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Bloating (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Excessive Flatulence (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Elevated CRP (50% of cases | Low Hazard)
+    + Revealed with __CRP__.
+    + Treated with __NSAIDs__.
++ Vitamin Deficiency (30% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Vomiting (20% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
+
+## Duodenitis (Common | $2500)
+
+Doudenitis is an inflammation of the lining of the duodenum; the first part of the small intestine, which is 12 inches long and curved into the C-shape.
+
+### Symptoms
+
++ Duodenitis Discovered (100% of cases | Low Hazard)
+    + Revealed with __gastroscopy__.
+    + Treated with __proton pump inhibitors__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Nausea (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Vomiting (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Anemia (60% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Excessive Belching (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Indigestion (25% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Intestinal Bleeding (20% of cases | High Hazard)
+    + Revealed with __gastroscopy__.
+    + Treated with __endoscopic cauterization__.
++ Bacteremia (20% of cases | High Hazard | __Serious__)
+    + Revealed with __blood analysis in the ICU__ or __microbial cultivation__.
+    + Treated with __IV antibiotics__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
+
+## Esophageal Varices (Common | $4200)
+
+Esophageal varices are abnormally enlarged veins within the esophagus. They are usually caused by portal hypertension due to existing liver disease.
+
+### Symptoms
+
++ Varices In the Oesophagus (100% of cases | Medium Hazard)
+    + Revealed with __gastroscopy__.
+    + Treated with __band ligation__.
++ Oesophagus Abnormalities (80% of cases | Low Hazard)
+    + Revealed with __barium swallow__.
+    + Treated with __diet modification__.
++ Vomiting (70% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Hematochezia (70% of cases | Medium Hazard)
+    + Revealed with __stool analysis__.
+    + Treated with __recommendations__.
++ Portal Hypertension (70% of cases | Medium Hazard)
+    + Revealed with __USG__ or __FAST__.
+    + Treated with __beta blockers__.
++ Jaundice (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Bleeding To Stomach (30% of cases | High Hazard | __Serious__)
+    + Revealed with __gastroscopy__.
+    + Treated with __endoscopic cauterization__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
++ Purpura (20% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __corticosteroids__.
+
+## Esophagitis (Rare | $500)
+
+Esophagitis is an inflammation of the oesophageal lining, often caused by acid reflux.
+
+### Symptoms
+
++ Oesophagus Infection (100% of cases | Low Hazard)
+    + Revealed with __gastroscopy__.
+    + Treated with __antivirals__.
++ Chest Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __thorax percussion__.
+    + Treated with __analgesics__.
++ Nausea (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Swallow Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __neck palpation__.
+    + Treated with __NSAIDs__.
++ Vomiting (70% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Oesophagus Abnormalities (60% of cases | Low Hazard)
+    + Revealed with __barium swallow__.
+    + Treated with __diet modification__.
++ Fever (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Hyperacidity (30% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antacids__.
+
+## Exocrine Pancreatic Insufficiency (Common | $1100)
+
+Pancreatic insufficiency occurs when the gland is damaged enough to seize functioning sufficiently. Normal absorption of nutrients in the small intestine is thus compromised resulting in nutritional deficiencies.
+
+### Symptoms
+
++ Elastase - Low Level (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an elastase test__.
+    + Treated with __PERT__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
++ Steatorrhea (70% of cases | Low Hazard)
+    + Revealed with __stool analysis__.
+    + Treated with __diet modification__.
++ Weight Loss (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Vitamin Deficiency (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Fat Malabsorption (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __PERT__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Anemia (60% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Abdominal Pain (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Excessive Flatulence (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Irregular Hearbeat (20% of cases | High Hazard | __Serious__)
+    + Revealed with __heart monitoring__ or __an ECG__.
+    + Treated with __beta blockers__.
+    + Can lead to __Heart failure__ if left untreated for __4 to 24__ hours.
++ Atherosclerosis (15% of cases | High Hazard | __Serious__)
+    + Revealed with __an urgent echocardiogram__ or __an echocardiogram__.
+    + Treated with __ace inhibitors__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
+
+## Fistula of the Intestine (Common | $2800)
+
+A fistula is an abnormal anatomical connection between two hollow spaces.
+
+### Symptoms
+
++ Intestinal Fistula (100% of cases | Medium Hazard)
+    + Revealed with __barium swallow__.
+    + Treated with __abdominal surgery__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Bloating (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Diarrhea (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Dehydration (40% of cases | High Hazard | __Serious__)
+    + Revealed with __a physical examination__.
+    + Treated with __rehydration__.
+    + Can lead to __Exhaustion__ if left untreated for __1 to 24__ hours.
+
+## Gallstones (Common | $2800)
+
+Gallstones, also called cholelithiasis, are concretions of  usually made from bilirubin, bile acids and calcium formed in the gall bladder. Gallstones usually do not cause symptoms, however, if they block the bile duct they can cause a variety of serious conditions.
+
+### Symptoms
+
++ Gallstones Identified (100% of cases | Medium Hazard)
+    + Revealed with __USG__.
+    + Treated with __laparoscopic surgery__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Jaundice (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Tenderness (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Vomiting (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Fever (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Indigestion (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Bloating (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Stomach Pain (40% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __spasmolytics__.
++ Gallbladder Rupture (40% of cases | High Hazard | __Serious__)
+    + Revealed with __FAST__ or __USG__.
+    + Treated with __abdominal surgery__.
+    + Can lead to __Septic shock__ if left untreated for __3 to 10__ hours.
+
+## Gastritis (Common | $400)
+
+Gastritis is an inflammation or erosion of the stomach's lining. It is caused by; bad nutrition, excessive alcohol use, or excessive use of some medications. Treatment consists of protone pump inhibitors and discontinuation of alcohol or drugs that cause the symptoms.
+
+### Symptoms
+
++ Gastritis Discovered (100% of cases | Low Hazard)
+    + Revealed with __gastroscopy__.
+    + Treated with __diet modification__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Bloating (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Loss of Appetite (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Tenderness (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Nausea (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Vomiting (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Anemia (35% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Indigestion (25% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Stomach Pain (20% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __spasmolytics__.
++ Septic Shock (20% of cases | High Hazard | __Fatal__)
+    + Revealed with __a complete blood count (CBC)__.
+    + Treated with __IV antibiotics__.
+    + Can lead to __death__ if left untreated for __2 to 4__ hours.
+
+## Glomerulonephritis (Common | $800)
+
+Glomerulonephritis refers to inflammation of the filtering unit of the kidneys. It can be caused by an infection or autoimmunity.
+
+### Symptoms
+
++ Kidney Tissue Inflamed (100% of cases | Medium Hazard)
+    + Revealed with __a biopsy__.
+    + Treated with __corticosteroids__.
++ Back Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Weight Gain (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Azotemia (40% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __dialysis__.
++ Hematuria (40% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Proteinuria (40% of cases | Low Hazard)
+    + Revealed with __urine analysis__.
+    + Treated with __ace inhibitors__.
++ Oliguria (40% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Cannot be treated.
++ Hyperlipidemia (40% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Edema (40% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diuretics__.
++ Lipiduria (40% of cases | Low Hazard)
+    + Revealed with __urine analysis__.
+    + Cannot be treated.
++ Anemia (30% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Painful Urination (30% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rehydration__.
+
+## Grave's Disease (Common | $300)
+
+Grave's disease is an endocrine disease where the thyroid gland produces thyroid hormones in excess.
+
+### Symptoms
+
++ TSH - Low Level (100% of cases | High Hazard | __Serious__)
+    + Revealed with __a blood test__.
+    + Treated with __antithyroids__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
++ Weight Loss (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Weakness (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Diarrhea (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Anxiety (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __anxiolytics__.
++ Swollen Thyroid Gland (50% of cases | Medium Hazard)
+    + Revealed with __neck palpation__.
+    + Treated with __NSAIDs__.
++ Tremor (30% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __beta blockers__.
++ Hypertension (30% of cases | High Hazard | __Serious__)
+    + Revealed with __blood pressure measurement__.
+    + Treated with __antihypertensive medication__.
+    + Can lead to __Heart failure__ if left untreated for __6 to 24__ hours.
++ Irregular Hearbeat (20% of cases | High Hazard | __Serious__)
+    + Revealed with __heart monitoring__ or __an ECG__.
+    + Treated with __beta blockers__.
+    + Can lead to __Heart failure__ if left untreated for __4 to 24__ hours.
+
+## H. Pylori Infection (Common | $400)
+
+Helicobacter pylori is a bacteria present in the upper gastrointestinal tract. It is the main cause of peptic ulcers.
+
+### Symptoms
+
++ H. Pylori Detected (100% of cases | High Hazard | __Serious__)
+    + Revealed with __serologic testing__.
+    + Treated with __triple therapy treatment__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
++ Weight Loss (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Vomiting (70% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Anemia (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Bloating (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Loss of Appetite (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Tenderness (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Excessive Belching (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Bad Breath (20% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a oral cavity inspection__.
+    + Treated with __antiseptics__.
++ Hyperacidity (20% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antacids__.
+
+## Hashimoto's Thyroiditis (Common | $900)
+
+Hashimoto's thyroiditis is an autoimmune disease where the immune system gradually destroys the thyroid gland.
+
+### Symptoms
+
++ Inflamed Thyroid (100% of cases | High Hazard | __Serious__)
+    + Revealed with __a biopsy__.
+    + Treated with __corticosteroids__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
++ Swallow Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __neck palpation__.
+    + Treated with __NSAIDs__.
++ Swollen Thyroid Gland (70% of cases | Medium Hazard)
+    + Revealed with __neck palpation__.
+    + Treated with __NSAIDs__.
++ Dysphagia (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __neck palpation__.
+    + Treated with __diet modification__.
++ Fatigue (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Weakness (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Hoarseness (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a oral cavity inspection__.
+    + Treated with __NSAIDs__.
++ Fever (40% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Irregular Hearbeat (20% of cases | High Hazard | __Serious__)
+    + Revealed with __heart monitoring__ or __an ECG__.
+    + Treated with __beta blockers__.
+    + Can lead to __Heart failure__ if left untreated for __4 to 24__ hours.
++ Hypertension (20% of cases | High Hazard | __Serious__)
+    + Revealed with __blood pressure measurement__.
+    + Treated with __antihypertensive medication__.
+    + Can lead to __Heart failure__ if left untreated for __6 to 24__ hours.
+
+## Hepatic Fibrosis (Common | $1300)
+
+Hepatic fibrosis represents an accumulation of scar tissue in the liver. The scar tissue can be the result of long term inflammation or another liver disease caused by viruses, bacterias, malnutrition or alcohol abuse etc. If left untreated it causes cirrhosis.
+
+### Symptoms
+
++ Fibrotic Liver Tissue (100% of cases | Medium Hazard)
+    + Revealed with __transient elastography__.
+    + Treated with __corticosteroids__.
++ Jaundice (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Dark Urine (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __rehydration__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Weakness (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Nausea (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Portal Hypertension (50% of cases | Medium Hazard)
+    + Revealed with __USG__ or __FAST__.
+    + Treated with __beta blockers__.
++ Elevated CRP (50% of cases | Low Hazard)
+    + Revealed with __CRP__.
+    + Treated with __NSAIDs__.
++ A1at Deficiency (30% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __A1AT replacement__.
+
+## Hepatitis A (Common | $400)
+
+Hepatitis refers to a viral infection of the liver. Hepatitis A virus spreads through feces and usually occurs in areas with poor sanitation or hygiene.
+
+### Symptoms
+
++ Hepatitis A Positive (100% of cases | Low Hazard)
+    + Revealed with __a blood test__.
+    + Treated with __rest__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Muscle and Joint Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rest__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Jaundice (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Abnormal LFT (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Vomiting (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Dark Urine (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __rehydration__.
++ Tenderness (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Confusion (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __tranquilizers__.
+
+## Hepatitis B (Common | $900)
+
+Hepatitis refers to a viral infection of the liver. Hepatitis B virus spreads via blood, sexual contact or from mother to child.
+
+### Symptoms
+
++ Hepatitis B Positive (100% of cases | Medium Hazard)
+    + Revealed with __a blood test__.
+    + Treated with __interferon alpha-2B__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Jaundice (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __vitamin supplementation__.
++ Muscle and Joint Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rest__.
++ Abnormal LFT (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Dark Urine (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __rehydration__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Tenderness (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Malaise (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rest__.
++ Nausea (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Portal Hypertension (25% of cases | Medium Hazard)
+    + Revealed with __USG__ or __FAST__.
+    + Treated with __beta blockers__.
+
+## HUS (Common | $1200)
+
+Hemolytic uremic syndrome refers to the condition when small blood vessels in kidneys become damaged and inflamed. In most cases an infection of Escherichia coli is responsible.
+
+### Symptoms
+
++ E. Coli Toxin Detected (100% of cases | High Hazard | __Serious__)
+    + Revealed with __stool analysis__.
+    + Treated with __blood transfusion__.
+    + Can lead to __Heart failure__ if left untreated for __8 to 24__ hours.
++ Diarrhea (90% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Abdominal Pain (90% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Fever (90% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Anemia (90% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Breathing Problems (90% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __chest auscultation__.
+    + Treated with __bronchodilators__.
++ Fatigue (90% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Hematuria (90% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Dysuria (90% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __analgesics__.
++ Confusion (90% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __tranquilizers__.
++ Hematochezia (75% of cases | Medium Hazard)
+    + Revealed with __stool analysis__.
+    + Treated with __recommendations__.
++ Cramps (75% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Bloating (75% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Vomiting (75% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
+
+## Hypothyroidism (Common | $300)
+
+Hypothyroidism is a disease where the thyroid gland functions inadequately and produces too little thyroid hormone.
+
+### Symptoms
+
++ TSH - High Level (100% of cases | Low Hazard)
+    + Revealed with __a blood test__.
+    + Treated with __synthetic thyroid hormones__.
++ Fatigue (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Constipation (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __purgatives__.
++ Irritability (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __tranquilizers__.
++ Swollen Thyroid Gland (60% of cases | Medium Hazard)
+    + Revealed with __neck palpation__.
+    + Treated with __NSAIDs__.
++ Bradycardia (60% of cases | Medium Hazard)
+    + Revealed with __heart monitoring__ or __an ECG__.
+    + Treated with __IV atropine__.
++ Hyperlipidemia (50% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Weakness (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Depression (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __antidepressants__.
++ Hair Loss (40% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __recommendations__.
++ Weight Gain (40% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Cramps (20% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Hearing Problems (20% of cases | Low Hazard)
+    + Revealed with __an interview__ or __audiometry__.
+    + Treated with __ear drops__.
++ Elevated LDL (20% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Atherosclerosis (20% of cases | High Hazard | __Serious__)
+    + Revealed with __an urgent echocardiogram__ or __an echocardiogram__.
+    + Treated with __ace inhibitors__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
+
+## Interstitial Cystitis (Common | $300)
+
+Interstitial cystitis is also called painful bladder syndrome.
+
+### Symptoms
+
++ Bladder Lining Defect (100% of cases | Low Hazard)
+    + Revealed with __a biopsy__.
+    + Treated with __NSAIDs__.
++ Frequent Urination (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Urinary Urgency (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
+
+## Interstitial Nephritis (Common | $800)
+
+Interstitial nephritis is an inflammation of the interstitial tissue of the kidneys. It can be caused by an infection or as an adverse reaction to medication.
+
+### Symptoms
+
++ Tubulus Inflammation (100% of cases | Medium Hazard)
+    + Revealed with __a biopsy__.
+    + Treated with __antibiotics__.
++ Hematuria (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Proteinuria (70% of cases | Low Hazard)
+    + Revealed with __urine analysis__.
+    + Treated with __ace inhibitors__.
++ Fever (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Polyuria (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Cannot be treated.
++ Lipiduria (60% of cases | Low Hazard)
+    + Revealed with __urine analysis__.
+    + Cannot be treated.
++ Back Pain (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Fatigue (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Vomiting (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Azotemia (50% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __dialysis__.
++ Rash On Torso (40% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __steroid cream__.
++ Painful Urination (40% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rehydration__.
+
+## Irritable Bowel Syndrome (Common | $300)
+
+Irritable bowel syndrome is chronic gastrointestinal disorder demanding a long term treatment approach. It is not contagious. Diet modification and medicine can usually relieve symptoms.
+
+### Symptoms
+
++ IBS-D Confirmed (100% of cases | Low Hazard)
+    + Revealed with __a blood test__.
+    + Treated with __diet modification__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Anemia (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Weight Loss (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Diarrhea (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Tenderness (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Excessive Flatulence (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Swollen Abdomen (30% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __rest__.
+
+## Kidney Stones (Common | $1000)
+
+Kidney stones, also known as urolithiasis, are usually concretions of calcium. Even though the stones usually pass on their own through the urinary tract, it is an extremely painful condition.
+
+### Symptoms
+
++ Kidney Stones Discovered (100% of cases | Low Hazard)
+    + Revealed with __a CT scan__.
+    + Treated with __shock wave lithotripsy__.
++ Painful Urination (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rehydration__.
++ Hematuria (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Cloudy Urine (70% of cases | Low Hazard)
+    + Revealed with __an interview__, __a physical examination__, or __urine analysis__.
+    + Treated with __rehydration__.
++ Urinary Urgency (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Frequent Urination (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Abdominal Pain (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Fever (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Chills (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antipyretics__.
++ Back Pain (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Vomiting (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
+
+## Liver Contusion (Common | $1100)
+
+Liver contusion happens due to physical trauma to the upper abdomen.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Liver Contusion (100% of cases | Medium Hazard)
+    + Revealed with __a CT scan__.
+    + Treated with __corticosteroids__.
++ Nausea (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Vomiting (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Hematuria (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Abdominal Pain (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Tenderness (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Bruise (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __an ice wrap__.
++ Abnormal LFT (60% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Abdominal Guarding (60% of cases | Medium Hazard)
+    + Revealed with __abdominal palpation__.
+    + Cannot be treated.
+
+## Liver Laceration (Common | $3300)
+
+Liver laceration occurs when an object pierces the tissue of the body and tears the liver.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Severe Hemorrhage (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __pressure bandage__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __0.5 to 1__ hours.
++ Blood Loss (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __blood transfusion__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __1 to 8__ hours.
++ Open Wound (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Liver Laceration (100% of cases | High Hazard)
+    + Revealed with __FAST__ or __USG__.
+    + Treated with __abdominal surgery__.
++ Abdominal Guarding (70% of cases | Medium Hazard)
+    + Revealed with __abdominal palpation__.
+    + Cannot be treated.
++ Hypovolemic Shock (33% of cases | High Hazard | __Fatal__)
+    + Revealed with __a physical examination__.
+    + Treated with __blood transfusion__.
+    + Can lead to __death__ if left untreated for __2 to 4__ hours.
+
+## Pancreas Contusion (Common | $1300)
+
+Pancreas contusion happens due to physical trauma to the upper abdomen.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Blunt Pancreas Contusion (100% of cases | Medium Hazard)
+    + Revealed with __USG__ or __FAST__.
+    + Treated with __IV nutrition__.
++ Abdominal Pain (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Bruise (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __an ice wrap__.
+
+## Pancreatitis (Common | $2200)
+
+Pancreatitis refers to inflammation of the pancreas. It is usually caused by gallstone blockage or excessive alcohol abuse.
+
+### Symptoms
+
++ Pancreatic Inflammation (100% of cases | Medium Hazard)
+    + Revealed with __a CT scan__.
+    + Treated with __IV antibiotics__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Steatorrhea (70% of cases | Low Hazard)
+    + Revealed with __stool analysis__.
+    + Treated with __diet modification__.
++ Fever (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Weight Loss (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Tenderness (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Tachycardia (60% of cases | High Hazard | __Serious__)
+    + Revealed with __heart monitoring__ or __an ECG__.
+    + Treated with __antiarrhythmics__.
+    + Can lead to __Palpitations__ if left untreated for __6 to 24__ hours.
++ Nausea (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Vomiting (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Chills (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antipyretics__.
++ Malnutrition (40% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __diet modification__.
++ Portal Hypertension (30% of cases | Medium Hazard)
+    + Revealed with __USG__ or __FAST__.
+    + Treated with __beta blockers__.
++ Hypocalcaemia (20% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __IV calcium gluconate__.
+
+## Penetrated Pancreas Laceration (Common | $2300)
+
+Penetrated pancreas laceration happens when an object pierces the skin of upper abdomen, causing an open wound and pancreas damage.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Severe Hemorrhage (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __pressure bandage__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __0.5 to 1__ hours.
++ Open Wound (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Pancreas Laceration (100% of cases | High Hazard)
+    + Revealed with __FAST__ or __USG__.
+    + Treated with __abdominal surgery__.
++ Hypovolemic Shock (50% of cases | High Hazard | __Fatal__)
+    + Revealed with __a physical examination__.
+    + Treated with __blood transfusion__.
+    + Can lead to __death__ if left untreated for __2 to 4__ hours.
++ Abdominal Guarding (50% of cases | Medium Hazard)
+    + Revealed with __abdominal palpation__.
+    + Cannot be treated.
+
+## Penetrated Spleen Rupture (Common | $2300)
+
+Penetrated spleen rupture happens when an object pierces the skin of upper abdomen, causing an open wound and spleen damage.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Severe Hemorrhage (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __pressure bandage__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __0.5 to 1__ hours.
++ Blood Loss (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __blood transfusion__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __1 to 8__ hours.
++ Open Wound (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Spleen Rupture (100% of cases | High Hazard)
+    + Revealed with __FAST__ or __USG__.
+    + Treated with __abdominal surgery__.
++ Abdominal Guarding (70% of cases | Medium Hazard)
+    + Revealed with __abdominal palpation__.
+    + Cannot be treated.
++ Hypovolemic Shock (50% of cases | High Hazard | __Fatal__)
+    + Revealed with __a physical examination__.
+    + Treated with __blood transfusion__.
+    + Can lead to __death__ if left untreated for __2 to 4__ hours.
+
+## Peptic Ulcer Disease (Common | $2700)
+
+A peptic ulcer is an open lesion in the lining of the stomach, duodenum or esophagus. It is most commonly caused by the bacterium h. pylori or prolonged, excessive use of NSAIDs
+
+### Symptoms
+
++ Gastric Ulcers Identified (100% of cases | Low Hazard)
+    + Revealed with __gastroscopy__.
+    + Treated with __proton pump inhibitors__.
++ Anemia (70% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Nausea (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Bloating (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Vomiting (50% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Weight Loss (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __diet modification__.
++ Hematochezia (50% of cases | Medium Hazard)
+    + Revealed with __stool analysis__.
+    + Treated with __recommendations__.
++ Excessive Belching (30% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Hyperacidity (30% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antacids__.
++ Bleeding To Stomach (25% of cases | High Hazard | __Serious__)
+    + Revealed with __gastroscopy__.
+    + Treated with __endoscopic cauterization__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
+
+## Primary Peritonitis (Common | $3200)
+
+Primary peritonitis is a bacterial infection of the peritoneum; a membrane covering the inner abdominal wall and organs within the abdominal cavity. Left untreated the condition is almost always fatal. 
+
+### Symptoms
+
++ Peritoneal Fluid Shows Infection (100% of cases | High Hazard | __Serious__)
+    + Revealed with __peritoneal fluid analysis__.
+    + Treated with __abdominal surgery__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Diarrhea (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Vomiting (70% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Fatigue (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Tenderness (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Bloating (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Elevated CRP (60% of cases | Low Hazard)
+    + Revealed with __CRP__.
+    + Treated with __NSAIDs__.
++ Thirst (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rehydration__.
++ Bacteremia (30% of cases | High Hazard | __Serious__)
+    + Revealed with __blood analysis in the ICU__ or __microbial cultivation__.
+    + Treated with __IV antibiotics__.
+    + Can lead to __Septic shock__ if left untreated for __6 to 24__ hours.
+
+## Pyelonephritis (Common | $700)
+
+Pyelonephritis is inflammation of the kidney, usually due to ascending bacteria spreading up through the urinary tract.
+
+### Symptoms
+
++ Kidney Interstitium Abscess (100% of cases | Low Hazard)
+    + Revealed with __an MRI__.
+    + Treated with __antibiotics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Nausea (70% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Frequent Urination (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Dysuria (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __analgesics__.
++ Vomiting (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Malaise (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __rest__.
++ Back Pain (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
+
+## Renal Contusion (Common | $1500)
+
+Renal contusion refers to bruising of the kidney (latin: ren) after a direct impact to the upper lower back.
+
+### Symptoms
+
++ Back Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Blunt Kidney Contusion (100% of cases | Medium Hazard)
+    + Revealed with __a CT scan__.
+    + Treated with __IV nutrition__.
++ Hematuria (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Vomiting (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Back Pain (50% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Nausea (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Spasms (30% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __spasmolytics__.
+
+## Renal Laceration (Common | $2300)
+
+Renal laceration occurs when an object pierces the tissue of the body and tears the kidney.
+
+### Symptoms
+
++ Back Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Severe Hemorrhage (100% of cases | High Hazard | __Serious__)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __pressure bandage__.
+    + Can lead to __Hypovolemic shock__ if left untreated for __0.5 to 1__ hours.
++ Open Wound (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Kidney Laceration (100% of cases | High Hazard)
+    + Revealed with __FAST__ or __USG__.
+    + Treated with __abdominal surgery__.
++ Hypovolemic Shock (50% of cases | High Hazard | __Fatal__)
+    + Revealed with __a physical examination__.
+    + Treated with __blood transfusion__.
+    + Can lead to __death__ if left untreated for __2 to 4__ hours.
++ Abdominal Guarding (50% of cases | Medium Hazard)
+    + Revealed with __abdominal palpation__.
+    + Cannot be treated.
+
+## Spleen Contusion (Common | $1400)
+
+Spleen contusion refers to bruising of the spleen after a direct impact to the upper abdomen.
+
+### Symptoms
+
++ Abdominal Injury (100% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __emergency care__.
++ Blunt Spleen Contusion (100% of cases | Medium Hazard)
+    + Revealed with __a CT scan__.
+    + Treated with __blood transfusion__.
++ Abdominal Pain (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Nausea (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __stomachics__.
++ Tenderness (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Confusion (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __speech listening__.
+    + Treated with __tranquilizers__.
+
+## Ulcerative Colitis (Common | $800)
+
+Ulcerative colitis is an inflammatory bowel disease that produces ulcers in the large intestine. The exact cause is unknown, however, it is evident that there are genetic, environmental and autoimmune components.
+
+### Symptoms
+
++ Colon Ulcers (100% of cases | Low Hazard)
+    + Revealed with __CT enterography__.
+    + Treated with __corticosteroids__.
++ Abdominal Pain (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __analgesics__.
++ Fever (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Abdominal Cramps (70% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __spasmolytics__.
++ Diarrhea (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __antidiarrheals__.
++ Fatigue (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __rest__.
++ Hematochezia (60% of cases | Medium Hazard)
+    + Revealed with __stool analysis__.
+    + Treated with __recommendations__.
++ Anemia (60% of cases | Low Hazard)
+    + Revealed with __blood analysis in the ICU__ or __a blood test__.
+    + Treated with __vitamin supplementation__.
++ Bloating (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __abdominal palpation__.
+    + Treated with __diet modification__.
++ Excessive Flatulence (50% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __stomachics__.
++ Tenderness (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __analgesics__.
++ Elevated CRP (50% of cases | Low Hazard)
+    + Revealed with __CRP__.
+    + Treated with __NSAIDs__.
++ Dehydration (30% of cases | High Hazard | __Serious__)
+    + Revealed with __a physical examination__.
+    + Treated with __rehydration__.
+    + Can lead to __Exhaustion__ if left untreated for __1 to 24__ hours.
+
+## Urinary Tract Infection (Common | $400)
+
+UTF, or cystitis, is an infection of the bladder usually by E. coli; a type of bacteria commonly found in the gastrointestinal (GI) tract. It is a condition a hundred times more common in women due to a shorter urinary tract.
+
+### Symptoms
+
++ Bladder Infection (100% of cases | Low Hazard)
+    + Revealed with __microbial cultivation__.
+    + Treated with __antibiotics__.
++ Urinary Urgency (70% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Dysuria (60% of cases | Medium Hazard)
+    + Revealed with __an interview__.
+    + Treated with __analgesics__.
++ Frequent Urination (60% of cases | Low Hazard)
+    + Revealed with __an interview__.
+    + Treated with __recommendations__.
++ Cloudy Urine (60% of cases | Low Hazard)
+    + Revealed with __an interview__, __a physical examination__, or __urine analysis__.
+    + Treated with __rehydration__.
++ Strong-Smelling Urine (60% of cases | Low Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __rehydration__.
++ Hematuria (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __urine analysis__.
+    + Treated with __antibiotics__.
++ Fever (60% of cases | Medium Hazard)
+    + Revealed with __an interview__ or __temperature measurement__.
+    + Treated with __antipyretics__.
++ Chills (50% of cases | Low Hazard)
+    + Revealed with __an interview__ or __a physical examination__.
+    + Treated with __antipyretics__.
+

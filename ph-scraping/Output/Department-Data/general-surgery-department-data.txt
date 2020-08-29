@@ -1,0 +1,48 @@
+Total Diagnoses: 48
+Potentially-Fatal Diagnoses: 24
+
+Deciding Exam Frequency:
+USG: 10
+Interview: 10
+Physical examination: 10
+CT: 7
+FAST: 7
+Blood test: 5
+Gastroscopy: 5
+Biopsy - testing: 4
+MRI: 3
+Serologic testing: 2
+Abdominal palpation: 2
+CT - enterography: 2
+Microbial cultivation: 2
+Transient elastography: 2
+Elastase test - testing: 1
+Barium swallow: 1
+Peritoneal fluid analysis - testing: 1
+Stool analysis: 1
+ELISA testing: 1
+
+Urgent Exam Frequency:
+Physical examination: 7
+Heart monitoring: 6
+ECG: 6
+Interview: 6
+Blood pressure measurement : 5
+Microbial cultivation: 5
+Blood analysis - ICU: 4
+FAST: 4
+USG: 3
+Urgent Echo: 2
+Echo: 2
+Gastroscopy: 2
+CT: 2
+Elastase test - testing: 1
+Biopsy - testing: 1
+Blood test: 1
+Serologic testing: 1
+CBC - testing: 1
+Peritoneal fluid analysis - testing: 1
+MRI: 1
+Neurological testing: 1
+Stool analysis: 1
+Temperature measurement: 1

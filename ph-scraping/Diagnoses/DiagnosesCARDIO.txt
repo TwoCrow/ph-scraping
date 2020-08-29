@@ -90,7 +90,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -174,7 +174,7 @@
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
             <ExaminationRef>EXM_CC_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -253,7 +253,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef> <!--COMPLICATION-->
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -351,7 +351,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_DIET_MODIFICATION</TreatmentRef>
@@ -453,7 +453,7 @@
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_CC_ECHO</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -540,7 +540,7 @@
             <ExaminationRef>EXM_URINE_SAMPLE_ANALYSIS_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_BIOPSY_SAMPLING</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -634,7 +634,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -722,7 +722,7 @@
             <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef>
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -904,7 +904,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -1012,7 +1012,7 @@
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef> <!--COMPLICATION-->
             <ExaminationRef>EXM_CC_ECHO</ExaminationRef> <!--COMPLICATION-->
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -1096,7 +1096,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -1175,7 +1175,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_MRI</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -1191,6 +1191,61 @@
             <Tag>disease</Tag>
         </Tags>
     </GameDBMedicalCondition>
+
+    
+    <!--TODO delete OBSOLETE DIAGNOSIS-->
+    <!-- 
+    &lt;!&ndash;Cardiac arrest&ndash;&gt;
+    <GameDBMedicalCondition ID="DIA_CAR">
+        <AbbreviationLocID>DIA_CAR_DESCRIPTION</AbbreviationLocID>
+        <Duration>1</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>90</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHEST_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>90</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BREATHING_DIFFICULTIES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NAUSEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>99</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_UNCONSCIOUSNESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>99</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RESPIRATORY_FAILURE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NO_PULSE_PRESENT</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_PULSE_FINDING</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_DEFIBRILLATION</TreatmentRef>
+            <TreatmentRef>TRT_ARTIFICIAL_VENTILATION</TreatmentRef>
+        </Treatments>
+        <IconIndex>1025</IconIndex>
+        <DepartmentRef>DPT_CARDIOLOGY</DepartmentRef>
+        <InsurancePayment>500</InsurancePayment>
+    </GameDBMedicalCondition>
+   
+    -->
     
     <!-- Congestive heart failure -->
     <GameDBMedicalCondition ID="DIA_CHF">
@@ -1259,7 +1314,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -1350,7 +1405,7 @@
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef> <!--COMPLICATION-->
             <ExaminationRef>EXM_ECHO</ExaminationRef>
             <ExaminationRef>EXM_CC_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -1445,7 +1500,7 @@
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef> <!--COMPLICATION-->
             <ExaminationRef>EXM_ECHO</ExaminationRef>
             <ExaminationRef>EXM_CC_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -1521,7 +1576,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef> <!--COMPLICATION-->
             <ExaminationRef>EXM_USG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -1593,7 +1648,7 @@
             <ExaminationRef>EXM_GASTROSCOPY</ExaminationRef>
             <ExaminationRef>EXM_USG</ExaminationRef> <!--COMPLICATION-->
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -1657,8 +1712,13 @@
             </GameDBSymptomRules>
             <GameDBSymptomRules>
                 <DayOfFirstOccurence>0</DayOfFirstOccurence>
-                <ProbabilityPercent>90</ProbabilityPercent>
+                <ProbabilityPercent>70</ProbabilityPercent>
                 <GameDBSymptomRef>SYM_HYPERTENSION</GameDBSymptomRef>
+            </GameDBSymptomRules> 
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>90</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_UNSTABLE_BLOOD_PRESSURE</GameDBSymptomRef>
             </GameDBSymptomRules>
             <GameDBSymptomRules>
                 <ProbabilityPercent>100</ProbabilityPercent>
@@ -1676,11 +1736,12 @@
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
-            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
             <TreatmentRef>TRT_VASODILATORS</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_INFUSION</TreatmentRef>
             <TreatmentRef>TRT_THROMBOLYTICS</TreatmentRef>
             <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef>
             <TreatmentRef>TRT_ANTIHYPERTENSIVES</TreatmentRef>
@@ -1765,7 +1826,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -1826,7 +1887,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CLOT_PREVENTING_DRUGS</TreatmentRef>
@@ -1897,7 +1958,7 @@
             <ExaminationRef>EXM_ECG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
@@ -1966,7 +2027,7 @@
             <ExaminationRef>EXM_OPHTHALMOSCOPY</ExaminationRef>
             <ExaminationRef>EXM_CRP</ExaminationRef>
             <ExaminationRef>EXM_ANGIOGRAPHY</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_CORTICOSTEROIDS</TreatmentRef>
@@ -1981,6 +2042,8 @@
             <Tag>clinic</Tag>
         </Tags>
     </GameDBMedicalCondition>
+    
+    <!-- ================================================== TRAUMAS ================================================== -->
 
     <!-- Blunt cardiac injury -->
     <GameDBMedicalCondition ID="TRM_BCI">
@@ -2022,7 +2085,7 @@
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECHO</ExaminationRef>
             <ExaminationRef>EXM_CC_ECHO</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
@@ -2067,7 +2130,7 @@
             <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
             <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
             <ExaminationRef>EXM_CT</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
@@ -2138,7 +2201,7 @@
             <ExaminationRef>EXM_USG</ExaminationRef>
             <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
             <ExaminationRef>EXM_ECG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
@@ -2192,7 +2255,7 @@
             <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
             <ExaminationRef>EXM_FAST</ExaminationRef>
             <ExaminationRef>EXM_USG</ExaminationRef>
-            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        	<ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
         </Examinations>
         <Treatments>
             <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>

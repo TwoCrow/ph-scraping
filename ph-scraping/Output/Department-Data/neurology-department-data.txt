@@ -1,0 +1,38 @@
+Total Diagnoses: 31
+Potentially-Fatal Diagnoses: 13
+
+Deciding Exam Frequency:
+MRI: 6
+Physical examination: 6
+CSF analysis: 5
+CT: 5
+Gonioscopy: 3
+Microbial cultivation: 2
+Angiography: 2
+Interview: 2
+PCR - testing: 2
+Biopsy - testing: 1
+Evaluation: 1
+Ophthalmoscopy: 1
+Skin allergy test: 1
+Microbial sampling: 1
+Heart monitoring: 1
+ECG: 1
+Blood pressure measurement : 1
+ELISA testing: 1
+
+Urgent Exam Frequency:
+Heart monitoring: 7
+ECG: 7
+Interview: 7
+Physical examination: 7
+Blood pressure measurement : 5
+CT: 5
+CSF analysis: 4
+Neurological testing: 4
+Temperature measurement: 2
+Urgent Echo: 1
+Echo: 1
+MRI: 1
+ELISA testing: 1
+PCR - testing: 1

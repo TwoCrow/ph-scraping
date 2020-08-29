@@ -1297,7 +1297,6 @@
         <Treatments>
             <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
             <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
-            <TreatmentRef>TRT_NSAIDS</TreatmentRef>
             <TreatmentRef>TRT_BRONCHODILATORS</TreatmentRef>
             <TreatmentRef>TRT_BONE_STRENGTH_PILLS</TreatmentRef>
         </Treatments>
@@ -2565,6 +2564,7 @@
             <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
         </Treatments>
         <IconIndex>1051</IconIndex>
+        <DontSendToHDU>true</DontSendToHDU>
         <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
         <InsurancePayment>200</InsurancePayment>
         <Tags>
@@ -2706,6 +2706,8 @@
             <Tag>disease</Tag>
         </Tags>
     </GameDBMedicalCondition>
+
+    <!-- ================================================== TRAUMAS ================================================== -->
 
     <!-- Pulmonary contusion - blunt -->
     <GameDBMedicalCondition ID="TRM_PCT">
@@ -3110,6 +3112,8 @@
         </Tags>
     </GameDBMedicalCondition>
 
+    <!-- ===================================== NEW DIAGNOSES ===================================== -->
+
     <!-- Pleurisy -->
     <GameDBMedicalCondition ID="DIA_052">
         <AbbreviationLocID>DIA_052_DESCRIPTION</AbbreviationLocID>
@@ -3268,7 +3272,6 @@
             <TreatmentRef>TRT_OXYGENOTHERAPY</TreatmentRef>
             <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
             <TreatmentRef>TRT_BRONCHODILATORS</TreatmentRef>
-            <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
         </Treatments>
         <IconIndex>2250</IconIndex>
         <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
@@ -4161,4 +4164,1364 @@
         </Tags>
     </GameDBMedicalCondition>
     
+    <!-- ======================================================================================================================================================================================================= -->
+
+    <!-- ======================================================================================== OBSOLETE - DEPRECATED ======================================================================================== -->
+
+    <!-- Classical cholera -->
+    <GameDBMedicalCondition ID="DIA_CLC">
+        <AbbreviationLocID>DIA_CLC_DESCRIPTION</AbbreviationLocID>
+        <Duration>2</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DEHYDRATION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRAMPS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRRITABILITY</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_THIRST</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_OLIGURIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HYPOTENSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRREGULAR_HEARTBEAT</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VIBRIO_CHOLERAE_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_BLOOD_PRESSURE_AND_PULSE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_ECG</ExaminationRef>
+            <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
+            <ExaminationRef>EXM_BACTERIA_CULTIVATION_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+            <TreatmentRef>TRT_REST</TreatmentRef>
+        </Treatments>
+        <IconIndex>1139</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>1000</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Typhoid fever -->
+    <GameDBMedicalCondition ID="DIA_TYF">
+        <AbbreviationLocID>DIA_TYF_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HYPERPYREXIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_WEAKNESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DRY_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LOSS_OF_APETITE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ABDOMINAL_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_TENDERNESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SALMONELLA_TYPHI_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>40</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_EXHAUSTION</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_GASTROSCOPY</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_BACTERIA_CULTIVATION_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_INFUSION</TreatmentRef>
+            <TreatmentRef>TRT_DIET_MODIFICATION</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_REST</TreatmentRef>
+        </Treatments>
+        <IconIndex>1141</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>1100</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Tuberculosis of lung -->
+    <GameDBMedicalCondition ID="DIA_TBC">
+        <AbbreviationLocID>DIA_TBC_DESCRIPTION</AbbreviationLocID>
+        <Duration>5</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>80</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEMOPTYSIS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHEST_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_WEIGHT_LOSS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NIGHT_SWEATS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHILLS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LOSS_OF_APETITE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LUNG_FINDINGS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LEUKOCYTOSIS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CRP_HIGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BREATHING_DIFFICULTIES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SPUTUM_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_M._TUBERCULOSIS_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_EXHAUSTION</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HYPERPYREXIA</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_CRP</ExaminationRef>
+            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+            <ExaminationRef>EXM_PCR_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_INTRAVENOUS_INFUSION</TreatmentRef>
+            <TreatmentRef>TRT_REST</TreatmentRef>
+        </Treatments>
+        <IconIndex>1149</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>1600</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Tularaemia -->
+    <GameDBMedicalCondition ID="DIA_TUL">
+        <AbbreviationLocID>DIA_TUL_DESCRIPTION</AbbreviationLocID>
+        <Duration>4</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PAINFUL_CERVICAL_LYMPH_NODES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHILLS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SORE_THROAT</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DRY_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHEST_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_F._TULARENSIS_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BREATHING_DIFFICULTIES</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_EXHAUSTION</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>10</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SEPTIC_SHOCK</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+            <ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
+            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_BACTERIA_CULTIVATION_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_INFUSION</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_REST</TreatmentRef>
+        </Treatments>
+        <IconIndex>1151</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>1200</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Pulmonary anthrax -->
+    <GameDBMedicalCondition ID="DIA_PNA">
+        <AbbreviationLocID>DIA_PNA_DESCRIPTION</AbbreviationLocID>
+        <Duration>5</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SORE_THROAT</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHEST_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NAUSEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SWALLOV_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEMOPTYSIS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LUNG_FINDINGS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BREATHING_DIFFICULTIES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HYPERPYREXIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_B._ANTHRACIS_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BACTEREMIA</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_ORAL_CAVITY_INSPECTION</ExaminationRef>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_X_RAY_TORSO</ExaminationRef>
+            <ExaminationRef>EXM_BACTERIA_CULTIVATION_SAMPLING</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_CC_BLOOD_ANALYSIS</ExaminationRef>
+            <ExaminationRef>EXM_PCR_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_NSAIDS</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1153</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>1600</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Rat-bite fever -->
+    <GameDBMedicalCondition ID="DIA_RBF">
+        <AbbreviationLocID>DIA_RBF_DESCRIPTION</AbbreviationLocID>
+        <Duration>2</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RASH_ON_ARM</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SWOLLEN_LYMPH_NODES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_STREPTOBACILLUS_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRREGULAR_HEARTBEAT</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_ECG</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+            <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
+        </Treatments>
+        <IconIndex>1155</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>600</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Cat-scratch disease -->
+    <GameDBMedicalCondition ID="DIA_CSD">
+        <AbbreviationLocID>DIA_CSD_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_RARE</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SWOLLEN_LYMPH_NODES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MALAISE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LOSS_OF_APETITE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ABDOMINAL_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BACK_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_B._HENSELAE_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRREGULAR_HEARTBEAT</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_ECG</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_PCR_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef>
+            <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef>
+            <TreatmentRef>TRT_REST</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
+        </Treatments>
+        <IconIndex>1157</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>600</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Pertussis -->
+    <GameDBMedicalCondition ID="DIA_PTS">
+        <AbbreviationLocID>DIA_PTS_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NASAL_CONGESTION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RED_EYE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SPUTUM_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRRITABLE_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_B._PERTUSSIS_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DEHYDRATION</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_NASAL_CAVITY_INSPECTION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_BACTERIA_CULTIVATION_SAMPLING</ExaminationRef>
+
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTITUSICS</TreatmentRef>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+        </Treatments>
+        <IconIndex>1159</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>600</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Legionnaires disease -->
+    <GameDBMedicalCondition ID="DIA_LEG">
+        <AbbreviationLocID>DIA_LEG_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHILLS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HYPERPYREXIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SPUTUM_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHEST_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NAUSEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEMOPTYSIS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LEGIONELLA_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_THORAX_PERCUSSION</ExaminationRef>
+            <ExaminationRef>EXM_PCR_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_HIGH_PRIORITY</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTITUSICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_REST</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1161</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>600</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Typhus fever -->
+    <GameDBMedicalCondition ID="DIA_TPF">
+        <AbbreviationLocID>DIA_TPF_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHILLS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RASH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DRY_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_R._TYPHI_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DEHYDRATION</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_BLOOD_TEST_SAMPLING</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_GASTROSCOPY</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_REHYDRATION</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
+        </Treatments>
+        <IconIndex>1029</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>2700</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- American trypanosomias -->
+    <GameDBMedicalCondition ID="DIA_ATS">
+        <AbbreviationLocID>DIA_ATS_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RASH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LOSS_OF_APETITE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NAUSEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIARRHEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_TRYPANOSOMA_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRREGULAR_HEARTBEAT</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>30</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ABDOMINAL_PAIN</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_ECG</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_ECHO</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_CC_ECHO</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPARASITIC_DRUGS</TreatmentRef>
+            <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1165</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>1700</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Toxoplasmosis -->
+    <GameDBMedicalCondition ID="DIA_TXM">
+        <AbbreviationLocID>DIA_TXM_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SWOLLEN_LYMPH_NODES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CONFUSION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_TOXOPLASMOSIS_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RED_EYE</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_SPEECH_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPARASITIC_DRUGS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1157</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>600</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Babesios -->
+    <GameDBMedicalCondition ID="DIA_BAB">
+        <AbbreviationLocID>DIA_BAB_DESCRIPTION</AbbreviationLocID>
+        <Duration>2</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MALAISE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_CHILLS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_NAUSEA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_ABDOMINAL_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DRY_COUGH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BABESIOSIS_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_ABDOMINAL_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_PCR_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1167</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>500</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Lyme disease -->
+    <GameDBMedicalCondition ID="DIA_LYD">
+        <AbbreviationLocID>DIA_LYD_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SWOLLEN_LYMPH_NODES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_RASH</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LEUKOPENIA</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_VOMITING</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_IRREGULAR_HEARTBEAT</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_BREATHING_DIFFICULTIES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LYME_DISEASE_DETECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_CHEST_LISTENING</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_CBC_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_ECG</ExaminationRef>
+            <ExaminationRef>EXM_HEART_MONITORING</ExaminationRef>
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_NORMAL</TreatmentRef>
+            <TreatmentRef>TRT_INTRAVENOUS_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_BETA_BLOCKERS</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef> <!--ADDITIONAL-->
+        </Treatments>
+        <IconIndex>1167</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>1000</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Mumps -->
+    <GameDBMedicalCondition ID="DIA_MUM">
+        <AbbreviationLocID>DIA_MUM_DESCRIPTION</AbbreviationLocID>
+        <Duration>3</Duration>
+        <OccurrenceRef>OCCURRENCE_UNCOMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FEVER</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HEADACHE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SWOLLEN_LYMPH_NODES</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SWALLOV_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>60</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_MUSCLES_AND_JOINTS_PAIN</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_WEAKNESS</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_FATIGUE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>50</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_LOSS_OF_APETITE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PAROTID_INFECTED</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>20</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_DIMINISHED_HEARING</GameDBSymptomRef> <!--COMPLICATION-->
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <!--ExaminationRef>EXM_OBSERVATION</ExaminationRef-->
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_TEMPERATURE_MEASUREMENT</ExaminationRef>
+            <ExaminationRef>EXM_NECK_PALPATION</ExaminationRef>
+            <ExaminationRef>EXM_AUDIOMETRY</ExaminationRef> <!--COMPLICATION-->
+            <ExaminationRef>EXM_SEROLOGY_TESTING_SAMPLING</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_ANTIBIOTICS</TreatmentRef>
+            <TreatmentRef>TRT_ANTIPYRETICS</TreatmentRef>
+            <TreatmentRef>TRT_REST</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_HOME_TREATMENT</TreatmentRef>
+        </Treatments>
+        <IconIndex>1189</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>300</InsurancePayment>
+        <Tags>
+            <Tag>disease</Tag>
+            <Tag>clinic</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
+    <!-- Pulmonary laceration - penetrating -->
+    <GameDBMedicalCondition ID="TRM_PLP">
+        <AbbreviationLocID>TRM_PLP_DESCRIPTION</AbbreviationLocID>
+        <Duration>4</Duration>
+        <OccurrenceRef>OCCURRENCE_COMMON</OccurrenceRef>
+        <Symptoms>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_INJURY_TO_THE_CHEST</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_SEVERE_HEMORRHAGE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_HYPOVOLEMIC_SHOCK</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>70</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PNEUMATOCELE</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <DayOfFirstOccurence>0</DayOfFirstOccurence>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_OPEN_WOUND</GameDBSymptomRef>
+            </GameDBSymptomRules>
+            <GameDBSymptomRules>
+                <ProbabilityPercent>100</ProbabilityPercent>
+                <GameDBSymptomRef>SYM_PENETRATING_PULMONARY_LACERATION</GameDBSymptomRef>
+            </GameDBSymptomRules>
+        </Symptoms>
+        <Examinations>
+            <ExaminationRef>EXM_INTERVIEW</ExaminationRef>
+            <ExaminationRef>EXM_PHYSICAL_AND_VISUAL_EXAMINATION</ExaminationRef>
+            <ExaminationRef>EXM_FAST</ExaminationRef>
+            <ExaminationRef>EXM_DIFFERENTIAL_DIAGNOSIS</ExaminationRef>
+        </Examinations>
+        <Treatments>
+            <TreatmentRef>TRT_HOSPITALIZATION_TRAUMA</TreatmentRef>
+            <TreatmentRef>TRT_EMERGENCY_CARE</TreatmentRef>
+            <TreatmentRef>TRT_PULMONARY_SURGERY</TreatmentRef>
+            <TreatmentRef>TRT_ANALGESICS</TreatmentRef> <!--ADDITIONAL-->
+            <TreatmentRef>TRT_BLOOD_TRANSFUSION</TreatmentRef>
+        </Treatments>
+        <IconIndex>1199</IconIndex>
+        <DepartmentRef>DPT_INTERNAL_MEDICINE_DEPARTMENT</DepartmentRef>
+        <InsurancePayment>3100</InsurancePayment>
+        <Tags>
+            <Tag>trauma</Tag>
+        </Tags>
+        <Disabled>true</Disabled>
+    </GameDBMedicalCondition>
+
 </Database>
